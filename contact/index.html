@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Auxspire - We welcome you to contact us for more information about our Salesforce, AI, and product development services.">
+  <meta property="og:title" content="Contact Auxspire">
+  <meta property="og:description" content="Drop us a line. We welcome you to contact us for more information about any of our products or services.">
+  <meta property="og:type" content="website">
+  <title>Contact Auxspire | Get in Touch</title>
+  <link rel="icon" href="../assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/design-system.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/animations.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav">
+        <a href="/" class="site-logo">
+          <img src="../assets/logo.png" alt="" width="36" height="24">
+          <span>Auxspire</span>
+        </a>
+        <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+        <div class="nav-links" id="navLinks">
+          <a href="/#services">Services</a>
+          <a href="/about-us/">About</a>
+          <a href="/case-studies/">Case Studies</a>
+          <a href="/#why">Why Auxspire</a>
+          <a href="/#impact">Global Impact</a>
+          <a href="/contact/">Contact</a>
+          <a href="/client-portal/">Client Portal</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container">
+        <h1>Contact us</h1>
+        <p>Drop us a line. We welcome you to contact us for more information about any of our products or services.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container" style="max-width: 720px; margin: 0 auto;">
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST" aria-label="Enquiry form">
+          <input type="hidden" name="access_key" value="0c7b1332-0a6a-4e41-bbf4-4b48a9c74d99">
+          <input type="hidden" name="subject" value="Enquiry">
+
+          <fieldset class="form-section">
+            <legend>Basic Info</legend>
+            <div class="form-group">
+              <label for="full-name">Full Name *</label>
+              <input type="text" id="full-name" name="Full Name" required placeholder="Your full name">
+            </div>
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="Company Name" placeholder="Company name">
+            </div>
+            <div class="form-group">
+              <label for="work-email">Work Email *</label>
+              <input type="email" id="work-email" name="Work Email" required placeholder="you@company.com">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="Phone" placeholder="Phone number">
+            </div>
+            <div class="form-group">
+              <label for="country">Country</label>
+              <input type="text" id="country" name="Country" placeholder="Country">
+            </div>
+          </fieldset>
+
+          <fieldset class="form-section">
+            <legend>Project Scope</legend>
+            <div class="form-group">
+              <label>Salesforce Cloud (select all that apply)</label>
+              <div class="checkbox-group">
+                <label class="checkbox-label"><input type="checkbox" name="Salesforce Cloud[]" value="Sales Cloud"> Sales Cloud</label>
+                <label class="checkbox-label"><input type="checkbox" name="Salesforce Cloud[]" value="Service Cloud"> Service Cloud</label>
+                <label class="checkbox-label"><input type="checkbox" name="Salesforce Cloud[]" value="Experience Cloud"> Experience Cloud</label>
+                <label class="checkbox-label"><input type="checkbox" name="Salesforce Cloud[]" value="Field Service"> Field Service</label>
+                <label class="checkbox-label"><input type="checkbox" name="Salesforce Cloud[]" value="CPQ"> CPQ</label>
+                <label class="checkbox-label"><input type="checkbox" name="Salesforce Cloud[]" value="Custom Development"> Custom Development</label>
+                <label class="checkbox-label"><input type="checkbox" name="Salesforce Cloud[]" value="Integration"> Integration</label>
+                <label class="checkbox-label"><input type="checkbox" name="Salesforce Cloud[]" value="Data Migration"> Data Migration</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="org-size">Estimated Org Size</label>
+              <select id="org-size" name="Estimated Org Size">
+                <option value="">Select</option>
+                <option value="Small (1-50 users)">Small (1-50 users)</option>
+                <option value="Medium (51-500 users)">Medium (51-500 users)</option>
+                <option value="Enterprise (500+ users)">Enterprise (500+ users)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="timeline">Timeline</label>
+              <input type="text" id="timeline" name="Timeline" placeholder="Expected timeline">
+            </div>
+            <div class="form-group">
+              <label for="budget">Budget Range</label>
+              <select id="budget" name="Budget Range">
+                <option value="">Select</option>
+                <option value="Under 50k">Under 50k</option>
+                <option value="50k-100k">50k-100k</option>
+                <option value="100k-250k">100k-250k</option>
+                <option value="250k+">250k+</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-section">
+            <legend>Technical Info</legend>
+            <div class="form-group">
+              <label for="current-crm">Current CRM</label>
+              <input type="text" id="current-crm" name="Current CRM" placeholder="Current CRM or none">
+            </div>
+            <div class="form-group">
+              <label for="integrations">Existing Integrations</label>
+              <input type="text" id="integrations" name="Existing Integrations" placeholder="Existing integrations">
+            </div>
+            <div class="form-group">
+              <label>Sandbox Access Available?</label>
+              <div class="radio-group">
+                <label class="radio-label"><input type="radio" name="Sandbox Access" value="Yes"> Yes</label>
+                <label class="radio-label"><input type="radio" name="Sandbox Access" value="No"> No</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Is this new build or enhancement?</label>
+              <select name="Build Type">
+                <option value="">Select</option>
+                <option value="New build">New build</option>
+                <option value="Enhancement">Enhancement</option>
+              </select>
+            </div>
+          </fieldset>
+
+          <fieldset class="form-section">
+            <legend>Details</legend>
+            <div class="form-group">
+              <label for="requirement">Describe your requirement</label>
+              <textarea id="requirement" name="Requirement" rows="8" placeholder="Describe your requirement in detail"></textarea>
+            </div>
+          </fieldset>
+
+          <div class="form-group form-checkbox">
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">By submitting, you agree to receive communication from auxspire.com including updates about our services. You can opt-out by replying to the email.</label>
+          </div>
+          <button type="submit" class="btn btn-primary electric-btn">Send Enquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <nav class="footer-links">
+        <a href="/">Home</a>
+        <a href="/about-us/">About</a>
+        <a href="/case-studies/">Case Studies</a>
+        <a href="/contact/">Contact</a>
+        <a href="/client-portal/">Client Portal</a>
+      </nav>
+      <p>&copy; Auxspire | Empowering Enterprise Intelligence</p>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      var toggle = document.getElementById('navToggle');
+      var links = document.getElementById('navLinks');
+      var overlay = document.getElementById('navOverlay');
+      if (!toggle || !links) return;
+      function open() {
+        links.classList.add('is-open');
+        overlay.classList.add('is-open');
+        toggle.setAttribute('aria-expanded', 'true');
+        toggle.querySelector('.material-symbols-outlined').textContent = 'close';
+      }
+      function close() {
+        links.classList.remove('is-open');
+        overlay.classList.remove('is-open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.querySelector('.material-symbols-outlined').textContent = 'menu';
+      }
+      toggle.addEventListener('click', function() {
+        links.classList.contains('is-open') ? close() : open();
+      });
+      overlay.addEventListener('click', close);
+      links.querySelectorAll('a').forEach(function(a) {
+        a.addEventListener('click', close);
+      });
+    })();
+  </script>
+</body>
+</html>

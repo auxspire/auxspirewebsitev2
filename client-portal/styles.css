@@ -1,0 +1,217 @@
+/* Client Portal Styles - Matching Live Site Typography */
+
+.ticket-form {
+    max-width: 100%;
+}
+
+.ticket-form-control {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 20px;
+    border: 1px solid #DDDDDD;
+    border-radius: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    background: transparent;
+    background-clip: padding-box;
+    color: #b2b2b6;
+    outline: none;
+    display: block;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: border 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -o-transition: border 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition: border 300ms cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    -o-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+.ticket-form-control:focus {
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1) inset;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1) inset;
+    border-color: #dddddd;
+    background: transparent;
+    color: #151515;
+}
+
+.ticket-form-control[type="file"] {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.ticket-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #333333;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.ticket-form .required {
+    color: #e74c3c;
+}
+
+.ticket-form small {
+    display: block;
+    margin-top: 5px;
+    color: #666666;
+    font-size: 12px;
+    line-height: 28px;
+    font-family: inherit;
+}
+
+.ticket-form textarea {
+    resize: vertical;
+    min-height: 120px;
+    overflow: auto;
+    vertical-align: top;
+}
+
+.ticket-submit-btn {
+    background-color: #2948ff;
+    color: #FFFFFF;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    line-height: 28px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.ticket-submit-btn:hover {
+    background-color: #1e35cc;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(41, 72, 255, 0.3);
+}
+
+.ticket-submit-btn:active {
+    transform: translateY(0);
+}
+
+.ticket-submit-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
+#form-messages {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#form-messages.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    display: block;
+}
+
+#form-messages.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    display: block;
+}
+
+.ticket-form p {
+    margin-bottom: 20px;
+}
+
+.ticket-form select {
+    cursor: pointer;
+    color: #151515;
+}
+
+/* Priority badge styles */
+.priority-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-family: Poppins, sans-serif;
+}
+
+.priority-low {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.priority-medium {
+    background-color: #fff3e0;
+    color: #e65100;
+}
+
+.priority-high {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.priority-urgent {
+    background-color: #fce4ec;
+    color: #880e4f;
+}
+
+.ticket-login-btn {
+    display: inline-block;
+    background-color: #2948ff;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    line-height: 28px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.ticket-login-btn:hover {
+    background-color: #1e3ae6;
+    transform: translateY(-2px);
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.ticket-login-btn:active {
+    transform: translateY(0);
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .ticket-form-control {
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+    
+    .ticket-submit-btn {
+        width: 100%;
+        padding: 15px 20px;
+    }
+    
+    .ticket-login-btn {
+        width: 100%;
+        text-align: center;
+    }
+}

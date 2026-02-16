@@ -1,0 +1,56 @@
+/**
+ * Stitch Design System
+ * Desktop: Space Grotesk, #136dec (saturation 2)
+ * Mobile: Inter, #0d7ff2 (saturation 3)
+ * Breakpoint: 768px
+ */
+:root {
+  /* Desktop theme (default) */
+  --color-primary: #136dec;
+  --color-accent: #f97316;
+  --color-bg: #0a0a0f;
+  --color-surface: #12121a;
+  --color-surface-elevated: #1a1a24;
+  --color-text: #e8e8ed;
+  --color-text-muted: #9898a6;
+  --radius: 8px;
+  --font: 'Space Grotesk', system-ui, sans-serif;
+  --font-heading: 'Space Grotesk', system-ui, sans-serif;
+  /* Typography scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: clamp(2rem, 4vw, 2.75rem);
+  --text-4xl: clamp(2.5rem, 5vw, 4rem);
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 80px;
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.2s ease;
+}
+
+@media (max-width: 768px) {
+  :root {
+    /* Mobile theme */
+    --color-primary: #0d7ff2;
+    --font: 'Inter', system-ui, sans-serif;
+    --font-heading: 'Inter', system-ui, sans-serif;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0s;
+    --transition-base: 0s;
+  }
+}

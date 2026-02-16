@@ -1,0 +1,1123 @@
+Uri: https://auxspire.com/
+File Name: C:\Downloaded Web Sites\auxspire.com\index-1.htm
+Content Type: text/html
+
+Uri: https://auxspire.com/about-us/
+File Name: C:\Downloaded Web Sites\auxspire.com\about-us\index-1.htm
+Content Type: text/html
+
+Uri: https://auxspire.com/comments/feed/
+File Name: C:\Downloaded Web Sites\auxspire.com\comments\feed\index-1.htm
+Content Type: application/rss+xml
+
+Uri: https://auxspire.com/contact/
+File Name: C:\Downloaded Web Sites\auxspire.com\contact\index-1.htm
+Content Type: text/html
+
+Uri: https://auxspire.com/feed/
+File Name: C:\Downloaded Web Sites\auxspire.com\feed\index-1.htm
+Content Type: application/rss+xml
+
+Uri: https://auxspire.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.8.1
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\contact-form-7\includes\css\styles-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.8.1
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\contact-form-7\includes\js\index-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.8.1
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\contact-form-7\includes\swv\js\index-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.16.4
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\elementor\assets\css\frontend-lite.min-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.23.0
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\elementor\assets\lib\eicons\css\elementor-icons.min-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\elementor\assets\lib\swiper\css\swiper.min-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.7.0
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\css\js_composer.min-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/address-book.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\address-book-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/alarm-clock.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\alarm-clock-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/anchor.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\anchor-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/application-image.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\application-image-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/arrow.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\arrow-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/asterisk.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\asterisk-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/auction-hammer.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\auction-hammer-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/balloon-buzz.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\balloon-buzz-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/balloon-facebook.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\balloon-facebook-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/balloon-twitter.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\balloon-twitter-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/balloon.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\balloon-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/battery-full.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\battery-full-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/binocular.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\binocular-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/blue-document-excel.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\blue-document-excel-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/blue-document-image.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\blue-document-image-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/blue-document-music.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\blue-document-music-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/images/icons/blue-document-office.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\images\icons\blue-document-office-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.7.0
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\js\dist\js_composer_front.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/vc/alert.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\vc\alert-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/vc/exclamation.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\vc\exclamation-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/vc/info.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\vc\info-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/js_composer/assets/vc/tick.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\js_composer\assets\vc\tick-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/masterslider/includes/modules/elementor/assets/js/elementor-widgets.js?ver=3.5.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\masterslider\includes\modules\elementor\assets\js\elementor-widgets-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/plugins/masterslider/public/assets/css/masterslider.main.css?ver=3.5.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\masterslider\public\assets\css\masterslider.main-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/assets/dummy.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\assets\dummy-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\css\rs6-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\js\rbtools.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\js\rs6.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/plugins/ut-shortcodes/js/plugins/modernizr/modernizr.min.js?ver=2.6.2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\ut-shortcodes\js\plugins\modernizr\modernizr.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/plugins/ut-shortcodes/js/ut.scplugin.min.js?ver=4.9.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\ut-shortcodes\js\ut.scplugin.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-medium-webfont.woff
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-medium-webfont-1.woff
+Content Type: 
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/ut.core.fonts.min.css?ver=6.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\ut.core.fonts.min-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/ut.core.plugins.min.css?ver=6.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\ut.core.plugins.min-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/ut.shortcode.min.css?ver=6.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\ut.shortcode.min-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/ut.theme.min.css?ver=4.9.7.2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\ut.theme.min-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/ut.vc.shortcodes.min.css?ver=6.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\ut.vc.shortcodes.min-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/circuit-board-pattern.svg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\circuit-board-pattern-1.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/default/fav-114.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\default\fav-114-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/default/fav-144.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\default\fav-144-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/default/fav-32.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\default\fav-32-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/default/fav-57.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\default\fav-57-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/default/fav-72.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\default\fav-72-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/overlay-pattern.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\overlay-pattern-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/overlay-pattern2.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\overlay-pattern2-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/overlay-pattern3.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\overlay-pattern3-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/js/ut-init.min.js?ver=4.9.7.2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\js\ut-init.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/js/ut-scriptlibrary.min.js?ver=4.9.7.2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\js\ut-scriptlibrary.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/style.css?ver=4.9.7.2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\style-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/uploads/2016/11/contact-hero.jpg?id=6041
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2016\11\contact-hero-1.jpg
+Content Type: image/jpeg
+
+Uri: https://auxspire.com/wp-content/uploads/2018/05/fuse-brussels-273772-unsplash.jpg?id=7060
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2018\05\fuse-brussels-273772-unsplash-1.jpg
+Content Type: image/jpeg
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/exo-2-v15-latin-regular.eot
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\exo-2-v15-latin-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/exo-2-v15-latin-regular.svg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\exo-2-v15-latin-regular-1.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/exo-2-v15-latin-regular.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\exo-2-v15-latin-regular-1.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/exo-2-v15-latin-regular.woff
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\exo-2-v15-latin-regular-1.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/exo-2-v15-latin-regular.woff2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\exo-2-v15-latin-regular-1.woff2
+Content Type: font/woff2
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/Logo.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\Logo-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/uploads/elementor/css/global.css?ver=1696407105
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\elementor\css\global-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/uploads/elementor/css/post-8.css?ver=1696407105
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\elementor\css\post-8-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/uploads/masterslider/custom.css?ver=1.1
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\masterslider\custom-1.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-includes\js\jquery\jquery-migrate.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-includes\js\jquery\jquery.min-1.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-json/
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-json\index-1.htm
+Content Type: application/json
+
+Uri: https://auxspire.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fauxspire.com%2F
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-json\oembed\1.0\embed-2
+Content Type: application/json
+
+Uri: https://auxspire.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fauxspire.com%2F&format=xml
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-json\oembed\1.0\embed-3
+Content Type: text/xml
+
+Uri: https://auxspire.com/wp-json/wp/v2/pages/4161
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-json\wp\v2\pages\4161-1
+Content Type: application/json
+
+Uri: https://auxspire.com/xmlrpc.php?rsd
+File Name: C:\Downloaded Web Sites\auxspire.com\xmlrpc-1.php
+Content Type: text/xml
+
+Uri: https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.9
+File Name: C:\Downloaded Web Sites\auxspire.com\css-7
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Montserrat:800|Poppins:500%2C600|Roboto:400&display=swap
+File Name: C:\Downloaded Web Sites\auxspire.com\css-11
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.9
+File Name: C:\Downloaded Web Sites\auxspire.com\css-8
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Poppins%3A600%3Anormal%2C400normal&ver=6.9
+File Name: C:\Downloaded Web Sites\auxspire.com\css-9
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Poppins:600:normal,400normal&subsets=latin&display=swap
+File Name: C:\Downloaded Web Sites\auxspire.com\css-6
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Roboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto&ver=6.9
+File Name: C:\Downloaded Web Sites\auxspire.com\css-10
+Content Type: text/css
+
+s\skins\light-skin-1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-2.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-2.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-3.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-3.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/masterslider/public/assets/css/skins/light-skin-4-retina.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\masterslider\public\assets\css\skins\light-skin-4-retina.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/masterslider/public/assets/css/skins/metro-skin.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\masterslider\public\assets\css\skins\metro-skin.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/masterslider/public/assets/css/templates/gallery-btns.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\masterslider\public\assets\css\templates\gallery-btns.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/masterslider/public/assets/css/templates/staff-arrows.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\masterslider\public\assets\css\templates\staff-arrows.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/masterslider/public/assets/css/templates/vertical-arrows.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\masterslider\public\assets\css\templates\vertical-arrows.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/assets/coloredbg.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\assets\coloredbg.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/assets/dummy.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\assets\dummy.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/assets/gridtile.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\assets\gridtile.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\assets\gridtile_white.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/assets/loader.gif
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\assets\loader.gif
+Content Type: image/gif
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\css\rs6.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\fonts\revicons\revicons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg?5510888
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\fonts\revicons\revicons.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\fonts\revicons\revicons.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.5.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\js\rbtools.min.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.5.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\revslider\public\assets\js\rs6.min.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/plugins/ut-shortcodes/js/plugins/modernizr/modernizr.min.js?ver=2.6.2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\ut-shortcodes\js\plugins\modernizr\modernizr.min.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/plugins/ut-shortcodes/js/ut.scplugin.min.js?ver=4.9.9
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\plugins\ut-shortcodes\js\ut.scplugin.min.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fontawesome/fontawesome-webfont.eot?
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fontawesome\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fontawesome/fontawesome-webfont.eot?v=4.7.0
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fontawesome\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fontawesome/fontawesome-webfont.svg?v=4.7.0
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fontawesome\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fontawesome/fontawesome-webfont.ttf?v=4.7.0
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fontawesome\fontawesome-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fontawesome/fontawesome-webfont.woff2?v=4.7.0
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fontawesome\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fontawesome/fontawesome-webfont.woff?v=4.7.0
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fontawesome\fontawesome-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/Brooklyn-Core.svg?c262xj
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\Brooklyn-Core.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/Brooklyn-Core.ttf?c262xj
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\Brooklyn-Core.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/Brooklyn-Core.woff?c262xj
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\Brooklyn-Core.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/Brooklyn-WooCommerce.svg?6hhy2i
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\Brooklyn-WooCommerce.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/Brooklyn-WooCommerce.ttf?6hhy2i
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\Brooklyn-WooCommerce.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/Brooklyn-WooCommerce.woff?6hhy2i
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\Brooklyn-WooCommerce.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/icon54com.eot?s2cxjx
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\icon54com.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/icon54com.svg?s2cxjx
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\icon54com.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/icon54com.ttf?s2cxjx
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\icon54com.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/icon54com.woff?s2cxjx
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\icon54com.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-bold-webfont.eot
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-bold-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-bold-webfont.eot?
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-bold-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-bold-webfont.svg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-bold-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-bold-webfont.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-bold-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-bold-webfont.woff
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-bold-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-extralight-webfont.eot
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-extralight-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-extralight-webfont.eot?
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-extralight-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-extralight-webfont.svg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-extralight-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-extralight-webfont.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-extralight-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-extralight-webfont.woff
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-extralight-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-light-webfont.eot
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-light-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-light-webfont.eot?
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-light-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-light-webfont.svg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-light-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-light-webfont.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-light-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-light-webfont.woff
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-light-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-medium-webfont.eot
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-medium-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-medium-webfont.eot?
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-medium-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-medium-webfont.svg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-medium-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-medium-webfont.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-medium-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-medium-webfont.woff
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-medium-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-regular-webfont.eot
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-regular-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-regular-webfont.eot?
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-regular-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-regular-webfont.svg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-regular-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-regular-webfont.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-regular-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-regular-webfont.woff
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-regular-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-semibold-webfont.eot
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-semibold-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-semibold-webfont.eot?
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-semibold-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-semibold-webfont.svg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-semibold-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-semibold-webfont.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-semibold-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/fonts/raleway-semibold-webfont.woff
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\fonts\raleway-semibold-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/ut.core.fonts.min.css?ver=6.8.3
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\ut.core.fonts.min.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/ut.core.plugins.min.css?ver=6.8.3
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\ut.core.plugins.min.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/ut.shortcode.min.css?ver=6.8.3
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\ut.shortcode.min.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/ut.theme.min.css?ver=4.9.7.2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\ut.theme.min.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/css/ut.vc.shortcodes.min.css?ver=6.8.3
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\css\ut.vc.shortcodes.min.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/circuit-board-pattern.svg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\circuit-board-pattern.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/default/fav-114.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\default\fav-114.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/default/fav-144.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\default\fav-144.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/default/fav-32.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\default\fav-32.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/default/fav-57.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\default\fav-57.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/default/fav-72.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\default\fav-72.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider1.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider1.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider10.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider10.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider11.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider11.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider12.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider12.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider13.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider13.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider14.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider14.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider15.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider15.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider16.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider16.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider17.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider17.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider18.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider18.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider19.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider19.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider2.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider2.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider20.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider20.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider3.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider3.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider4.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider4.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider5.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider5.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider6.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider6.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider7.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider7.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider8.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider8.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/divider/divider9.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\divider\divider9.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/loaders/ajax-loader.gif
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\loaders\ajax-loader.gif
+Content Type: image/gif
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/mediaelement/mejs-controls.svg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\mediaelement\mejs-controls.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/overlay-pattern.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\overlay-pattern.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/overlay-pattern2.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\overlay-pattern2.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/overlay-pattern3.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\overlay-pattern3.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/pad_black.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\pad_black.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/pad_white.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\pad_white.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/images/ut-misc-bg.jpg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\images\ut-misc-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/js/ut-init.min.js?ver=4.9.7.2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\js\ut-init.min.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/js/ut-scriptlibrary.min.js?ver=4.9.7.2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\js\ut-scriptlibrary.min.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-content/themes/brooklyn/style.css?ver=4.9.7.2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\themes\brooklyn\style.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/uploads/2016/11/contact-hero.jpg?id=6041
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2016\11\contact-hero.jpg
+Content Type: image/jpeg
+
+Uri: https://auxspire.com/wp-content/uploads/2018/05/fuse-brussels-273772-unsplash.jpg?id=7060
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2018\05\fuse-brussels-273772-unsplash.jpg
+Content Type: image/jpeg
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/exo-2-v15-latin-regular.eot
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\exo-2-v15-latin-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/exo-2-v15-latin-regular.svg
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\exo-2-v15-latin-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/exo-2-v15-latin-regular.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\exo-2-v15-latin-regular.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/exo-2-v15-latin-regular.woff
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\exo-2-v15-latin-regular.woff
+Content Type: application/font-woff
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/exo-2-v15-latin-regular.woff2
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\exo-2-v15-latin-regular.woff2
+Content Type: font/woff2
+
+Uri: https://auxspire.com/wp-content/uploads/2021/12/Logo.png
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\2021\12\Logo.png
+Content Type: image/png
+
+Uri: https://auxspire.com/wp-content/uploads/elementor/css/global.css?ver=1696407105
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\elementor\css\global.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/uploads/elementor/css/post-8.css?ver=1696407105
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\elementor\css\post-8.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-content/uploads/masterslider/custom.css?ver=1.1
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-content\uploads\masterslider\custom.css
+Content Type: text/css
+
+Uri: https://auxspire.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-includes\js\jquery\jquery-migrate.min.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-includes\js\jquery\jquery.min.js
+Content Type: application/x-javascript
+
+Uri: https://auxspire.com/wp-json/
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-json\index.htm
+Content Type: application/json
+
+Uri: https://auxspire.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fauxspire.com%2F
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-json\oembed\1.0\embed
+Content Type: application/json
+
+Uri: https://auxspire.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fauxspire.com%2F&format=xml
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-json\oembed\1.0\embed-1
+Content Type: text/xml
+
+Uri: https://auxspire.com/wp-json/wp/v2/pages/4161
+File Name: C:\Downloaded Web Sites\auxspire.com\wp-json\wp\v2\pages\4161
+Content Type: application/json
+
+Uri: https://auxspire.com/xmlrpc.php?rsd
+File Name: C:\Downloaded Web Sites\auxspire.com\xmlrpc.php
+Content Type: text/xml
+
+Uri: https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.8.3
+File Name: C:\Downloaded Web Sites\auxspire.com\css-1
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Montserrat:800|Poppins:500%2C600|Roboto:400&display=swap
+File Name: C:\Downloaded Web Sites\auxspire.com\css-5
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.8.3
+File Name: C:\Downloaded Web Sites\auxspire.com\css-2
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Poppins%3A600%3Anormal%2C400normal&ver=6.8.3
+File Name: C:\Downloaded Web Sites\auxspire.com\css-3
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Poppins:600:normal,400normal&subsets=latin&display=swap
+File Name: C:\Downloaded Web Sites\auxspire.com\css
+Content Type: text/css
+
+Uri: https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic|Roboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=auto&ver=6.8.3
+File Name: C:\Downloaded Web Sites\auxspire.com\css-4
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6WXh0ow.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq0N6WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6WXh0ow.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq3p6WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXh0ow.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq5Z9WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8WXh0ow.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R8WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXh0ow.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq6R9WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0ow.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqw16WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6WXh0ow.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR6WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9WXh0ow.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jqyR9WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9WXh0ow.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUFjIg1_i6t8kCHKm459Wx7xQYXK0vOoz6jq_p9WXh0ow.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Hw5aX8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCs16Hw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Xw5aX8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Xw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aX8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtZ6Hw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aX8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCu173w5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC73w5aX8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvC73w5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw5aX8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr6Hw5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w5aX8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\montserrat\v31\JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCvr73w5aX8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiAyp8kv8JHgFVrJJLmE0tCMPc.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiAyp8kv8JHgFVrJJLmE0tCMPc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLm111VF9eL.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiDyp8kv8JHgFVrJJLm111VF9eL.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLm21lVF9eL.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiDyp8kv8JHgFVrJJLm21lVF9eL.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLm81xVF9eL.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiDyp8kv8JHgFVrJJLm81xVF9eL.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmg1hVF9eL.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiDyp8kv8JHgFVrJJLmg1hVF9eL.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmr19VF9eL.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiDyp8kv8JHgFVrJJLmr19VF9eL.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmv1pVF9eL.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiDyp8kv8JHgFVrJJLmv1pVF9eL.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmy15VF9eL.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiDyp8kv8JHgFVrJJLmy15VF9eL.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfedw.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiEyp8kv8JHgFVrJJfedw.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiGyp8kv8JHgFVrJJLucHtF.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiGyp8kv8JHgFVrJJLucHtF.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/poppins/v24/pxiGyp8kv8JHgFVrLPTucHtF.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\poppins\v24\pxiGyp8kv8JHgFVrLPTucHtF.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QuAj-lg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiA8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaalmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjalmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEalmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbVmUiA8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbVmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v50/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\roboto\v50\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtalmUiA8.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\robotoslab\v36\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\robotoslab\v36\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\robotoslab\v36\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDIOmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\robotoslab\v36\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoDISmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\robotoslab\v36\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\robotoslab\v36\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojIWmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\robotoslab\v36\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoJYOmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\robotoslab\v36\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoUoOmb2Rm.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rm.ttf
+File Name: C:\Downloaded Web Sites\auxspire.com\s\robotoslab\v36\BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjovoSmb2Rm.ttf
+Content Type: font/ttf
+

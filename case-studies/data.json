@@ -1,0 +1,378 @@
+[
+  {
+    "id": 1,
+    "title": "Salesforce Enhancement for Maritime Regulatory Operations",
+    "client": "Federal Maritime Regulator",
+    "domain": null,
+    "industry": "Maritime/Shipping",
+    "challenge": "Manual, disparate processes created significant operational hurdles. High-volume complaint and event handling relied on spreadsheets and email, with no unified view of workloads, SLAs, or backlogs across teams. Compliance tracking was difficult and error-prone.",
+    "solution": "Built custom Salesforce objects, intelligent automation, and role-specific dashboards. Created a comprehensive system that automated complaint processing, provided real-time visibility across departments, and established a robust, scalable foundation for federal regulatory operations.",
+    "results": "Reduced manual complaint processing time by 40%. Achieved real-time, role-based dashboards enabling proactive management. Automated SLA compliance tracking reduced risk of missed deadlines and improved public trust. Established a structured, automated foundation for platform scalability.",
+    "technologies": [
+      "Salesforce",
+      "Apex",
+      "Integration",
+      "AWS",
+      "Visualforce",
+      "Lightning"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services",
+      "Salesforce Consulting"
+    ],
+    "year": "2023",
+    "useCaseSummary": "Project: ACERS & MARAD – Salesforce Enhancement Project\n\n\n\n\n\n\n\nHimanshu Dixit\n\n\n\n\n\n\n\n\n\nIntroduction\n\n\n\nTwo critical U.S. Department of Transportation (DOT) programs—Aviation Consumer Protection (ACERS) and the Maritime Administration (MARAD)—operated with manual, siloed processes for managing public complaints and maritime events. This led to inefficiencies, lack of visibility, and challenges in meeting compliance and reporting requirements.\n\nThis project transformed an existing Salesforce platform into a unified, automated compliance and case management hub. By building custom objects, intelligent automation, and role-specific dashboards, we created a system that reduced manual complaint processing time by ~40%, provided real-time visibility across departments, and established a robust, scalable foundation for federal regulatory operations.\n\n\n\nUser Profile & Problem Statement\n\nItem\n\nDescription\n\nPrimary Actors\n\nComplaint Analysts (ACERS), Maritime Event Coordinators (MARAD), Compliance Officers\n\nSecondary Actors\n\nProgram Leadership, Legal Staff\n\nUser's Goal\n\nTo efficiently intake, track, resolve, and report on consumer complaints (ACERS) and maritime safety/regulatory events (MARAD) within a secure, structured, and auditable system.\n\nCore Problem\n\nManual, disparate processes created significant operational hurdles:• Inefficiency: High-volume complaint/event handling relied on spreadsheets and email.• Lack of Visibility: No unified view of workloads, SLAs, or backlogs across teams.• Compliance Risk: Difficulty in tracking resolutions, approvals, and maintaining an audit trail for federal oversight.\n\n\n\nGoals & Success Metrics\n\nGoal\n\nSuccess Metric\n\nAutomate Core Workflows\n\nReduce manual data entry and task routing for complaints and events.\n\nProvide Unified Operational Visibility\n\nDeliver real-time, role-based dashboards for analysts and leadership.\n\nEnsure Compliance & Auditability\n\nImplement structured processes with approval chains and SLA tracking.\n\nCreate a Scal..."
+  },
+  {
+    "id": 2,
+    "title": "AI Chatbot Implementation for E-commerce Customer Support",
+    "client": "E-commerce Organization",
+    "domain": null,
+    "industry": "E-commerce/Technology",
+    "challenge": "Customer inquiries were funneled exclusively to a limited number of live agents, leading to slow response times especially outside business hours. High agent workload with repetitive, simple queries. Inconsistent routing made it difficult to ensure sales questions reached sales reps and service questions reached support agents.",
+    "solution": "Implemented an intelligent chatbot solution using Salesforce Experience Cloud. The chatbot handles common customer inquiries, routes complex issues to appropriate agents, and provides 24/7 customer support. Integrated with Salesforce Service Cloud for seamless case management and tracking.",
+    "results": "Achieved 50% reduction in average first-response time. Decreased live agent load by 35%, enhancing customer satisfaction while optimizing internal operations. Improved routing accuracy and customer experience with automated responses to common queries.",
+    "technologies": [
+      "Salesforce",
+      "Salesforce Service Cloud",
+      "Experience Cloud",
+      "Integration"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services"
+    ],
+    "year": "2023",
+    "useCaseSummary": "Use Cases for Casper ChatBot (Einstein/Sierra Bot Implementation)\n\n\n\n\n\n\n\nHimanshu Dixit\n\n\n\n\n\n\n\n\n\nIntroduction\n\nAs a leading mattress brand, Casper needed to scale its customer engagement to provide instant, 24/7 support for both sales inquiries and post-purchase service. Relying solely on live agents for these interactions was limiting and inefficient.\n\nThis project successfully implemented an intelligent Einstein chatbot on Casper's public-facing website. The chatbot automates responses to common queries (like order tracking and returns) and seamlessly escalates complex issues to the appropriate live agent using Omni-Channel routing. The result is a 50% reduction in average first-response time and a 35% decrease in live agent load, enhancing customer satisfaction while optimizing internal operations.\n\n\n\nUser Profile & Problem Statement\n\n\n\nItem\n\nDescription\n\nPrimary Actor\n\nWebsite Customer (Prospect or Existing Customer)\n\nSecondary Actors\n\nLive Sales & Service Agents, Customer Service Manager\n\nUser's Goal\n\nTo get immediate answers to questions about products, orders, returns, or appointments, at any time of day, without needing to call or email.\n\nCore Problem\n\nCustomer inquiries were funneled exclusively to a limited number of live agents, leading to: • Slow Response Times: Especially outside of business hours. • High Agent Workload: Agents spent significant time on repetitive, simple queries. • Inconsistent Routing: Difficulty in ensuring sales questions reached sales reps and service questions reached support agents.\n\n\n\nGoals & Success Metrics\n\nGoal\n\nSuccess Metric\n\nProvide 24/7 Instant Support\n\nMake self-service available for common queries, reducing reliance on live agent availability.\n\nImprove Operational Efficiency\n\nReduce the volume of simple inquiries handled by live agents.\n\nAccelerate Customer Response Time\n\nDrastically lower the average first-response time for customer-initiated conversations.\n\nEnsure Seamless Handoffs\n\nCorrectly route complex conversatio..."
+  },
+  {
+    "id": 3,
+    "title": "Order Management System Integration for E-commerce",
+    "client": "E-commerce Organization",
+    "domain": null,
+    "industry": "E-commerce/Technology",
+    "challenge": "Order management was a manual, multi-system process that lacked automation and transparency. Manual order tracking, fulfillment, and returns created bottlenecks. No single source of truth for order status across departments. High potential for mistakes in data entry leading to customer dissatisfaction.",
+    "solution": "Developed a comprehensive Order Management System (OMS) integrated with Salesforce. Automated order processing workflows, unified data across systems, and implemented real-time order tracking. Created seamless integration between e-commerce platform, warehouse systems, and customer service.",
+    "results": "Significantly increased operational efficiency through automation. Teams can handle higher order volumes with the same staff. Substantial reduction in order processing errors improved customer satisfaction and reduced cost of rework. Unified data source enabled faster resolution times and better cross-team coordination.",
+    "technologies": [
+      "Salesforce",
+      "Apex",
+      "Integration",
+      "REST API"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services"
+    ],
+    "year": "2023",
+    "useCaseSummary": "USE CASES FOR CASPER OMS PROJECT\n\n\n\n\n\n\n\nHimanshu Dixit\n\n[Course title]\n\n\n\n\n\nIntroduction\n\nCasper's growth across B2C and B2B channels exposed critical limitations in its manual and fragmented order management processes. The lack of a centralized, automated system led to inefficiencies in tracking, fulfillment, and returns, creating operational bottlenecks and potential for errors.\n\nThe Casper Order Management System (OMS) project transformed this by building a scalable, integrated OMS layer directly within Salesforce. This system automates the core order lifecycle—from creation to delivery and returns—while providing real-time visibility and robust error handling. The result is a significant increase in operational efficiency, a reduction in processing errors, and a future-proof foundation designed to support Casper's continued expansion.\n\nUser Profile & Problem Statement\n\nItem\n\nDescription\n\nPrimary Actors\n\nWarehouse Staff, Order Processors, Customer Service Representatives\n\nSecondary Actors\n\nSales Teams, Operations Leadership\n\nUser's Goal\n\nTo manage orders, track shipments, process returns, and resolve issues quickly and accurately through a single, reliable system.\n\nCore Problem\n\nOrder management was a manual, multi-system process that lacked automation and transparency: • Inefficient Processes: Manual order tracking, fulfillment, and returns created bottlenecks. • Lack of Visibility: No single source of truth for order status across departments. • Error-Prone: High potential for mistakes in data entry and process execution, leading to customer dissatisfaction.\n\n\n\n\n\n\n\n Goals & Success Metrics\n\nGoal\n\nSuccess Metric\n\nAutomate the Order Lifecycle\n\nReduce manual intervention in key processes like order creation, shipment tracking, and returns authorization.\n\nImprove Operational Transparency\n\nProvide real-time visibility into order status, pending deliveries, and return rates for all teams.\n\nEnhance Scalability & Reliability\n\nCreate a system capable of handling growing..."
+  },
+  {
+    "id": 4,
+    "title": "Product Data Migration and Price Book Configuration",
+    "client": "E-commerce Organization",
+    "domain": null,
+    "industry": "E-commerce",
+    "challenge": "The product catalogue was a data swamp with inaccurate data, outdated products, incorrect pricing, and missing items. Poor organization with lack of clear classification fields made products difficult to find and analyze. Sales reps wasted time verifying product details, and reporting was unreliable.",
+    "solution": "Designed and executed a comprehensive product data migration strategy. Created data validation rules, automated product data preparation processes, and configured price books. Established a clean, organized product catalog with proper classification and accurate pricing information.",
+    "results": "Achieved 100% accurate and validated product dataset. Transformed data trust from unreliable to high single source of truth, enabling confidence in sales quotes and financial reporting. Reduced time-to-quote and streamlined sales productivity. Enabled accurate and actionable reporting for performance tracking and product strategy.",
+    "technologies": [
+      "Salesforce",
+      "Integration",
+      "AWS",
+      "Data Migration"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Consulting",
+      "Salesforce Integration Services"
+    ],
+    "year": "2023",
+    "useCaseSummary": "Product Data Upload & Price Book Configuration-BEINEX\n\n\n\n\n\n\n\nHimanshu Dixit\n\n\n\n\n\n\n\nIntroduction\n\nBeinex's Salesforce product catalogue had become outdated, inconsistent, and misaligned with current business offerings. This led to inefficiencies in the sales quoting process, unreliable reporting, and potential revenue leakage due to incorrect pricing or unavailable products.\n\nThis project successfully executed a comprehensive product data transformation, cleansing and restructuring the product catalogue to serve as a single source of truth. By creating a new Price Book, adding critical classification fields, and performing meticulous data hygiene, we established a clean, organized foundation for accurate sales operations, reporting, and future growth.\n\nUser Profile & Problem Statement\n\nItem\n\nDescription\n\nPrimary Actors\n\nSales Representatives, Sales Operations, Product Managers\n\nSecondary Actors\n\nFinance Team, System Administrators\n\nUser's Goal\n\nTo quickly find accurate, up-to-date products with correct pricing for creating quotes, and to generate reliable reports on product performance.\n\nCore Problem\n\nThe product catalogue was a data swamp, characterized by:• Inaccurate Data: Outdated products, incorrect pricing, and missing items.• Poor Organization: Lack of clear classification fields made products difficult to find and analyse.• Operational Friction: Sales reps wasted time verifying product details, and reporting was unreliable.\n\n\n\nGoals & Success Metrics\n\nGoal\n\nSuccess Metric\n\nEstablish a Single Source of Truth\n\nReplace the outdated catalog with a 100% accurate and validated product dataset.\n\nEnable Efficient Sales Processes\n\nEnsure the new Price Book and product attributes allow for fast, error-free quoting.\n\nLay the Foundation for Advanced Analytics\n\nCreate a clean data structure with proper classifications to support accurate reporting and filtering.\n\nMaintain Business Continuity\n\nExecute the data migration without disrupting active sales cycles or existing qu..."
+  },
+  {
+    "id": 5,
+    "title": "Student Portal Integration with Service Cloud",
+    "client": "UK Educational Institution",
+    "domain": null,
+    "industry": "Education",
+    "challenge": "The institution's student support system was fragmented, with cases created in an internal portal not reflected in Salesforce, leading to duplicate work, slow response times, and poor visibility. Disconnected systems and manual processes caused duplicate efforts, inefficient routing, and poor SLA tracking for urgent student issues.",
+    "solution": "Created a bi-directional, real-time bridge between the Student Portal and Salesforce Service Cloud. Developed a secure REST API with OAuth 2.0 and implemented intelligent automation including auto-assignment, escalation, and deduplication. Overcame Apex limitations for external API authentication with creative technical solutions.",
+    "results": "Achieved over 40% reduction in duplicate cases. Significantly improved turnaround times and SLA compliance. Praised automation clarity and improved visibility across support workflows. Unified the support workflow and eliminated data silos between systems.",
+    "technologies": [
+      "Salesforce Service Cloud",
+      "Apex",
+      "Integration",
+      "REST API",
+      "OAuth 2.0",
+      "AWS"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services"
+    ],
+    "year": "2023",
+    "useCaseSummary": "EDUCATIONAL INSTITUTION – UK (SERVICE CLOUD)\n\n\n\n\n\n\n\nHimanshu Dixit\n\n[Course title]\n\n\n\n\n\nEDUCATIONAL INSTITUTION – UK (SERVICE CLOUD)\n\nThe institution's student support system was fragmented, with cases created in an internal portal not reflected in Salesforce, leading to duplicate work, slow response times, and poor visibility.\n\nThis project created a bi-directional, real-time bridge between the Student Portal and Salesforce Service Cloud. By building a secure REST API with OAuth 2.0 and implementing intelligent automation—auto-assignment, escalation, and deduplication—we unified the support workflow. The result was a 40%+ reduction in duplicate cases and significantly improved turnaround times.\n\nUser Profile & Problem Statement\n\nItem\n\nDescription\n\nPrimary Actors\n\nStudent Support Agents, Admissions Staff\n\nCore Problem\n\nDisconnected systems and manual processes caused:• Duplicate Efforts: Same issue logged in both portal and Salesforce.• Inefficient Routing: Manual assignment of cases delayed responses.• Poor SLA Tracking: Lack of automated escalation for urgent student issues.\n\nGoals & Success Metrics\n\nGoal\n\nSuccess Metric\n\nEliminate Data Silos\n\nAchieve real-time sync between the Student Portal and Salesforce.\n\nAutomate Case Logistics\n\nImplement rules-based assignment, task creation, and escalation.\n\nReduce Duplicate Work\n\nDramatically decrease the volume of duplicate case records.\n\nMaintain Security & Compliance\n\nEnsure secure API access using OAuth 2.0 for student data.\n\n Key Solutions & Impact\n\nSecure Integration: Developed a REST API with a Connected App (OAuth 2.0) for secure communication between the portal and Salesforce.\n\nIntelligent Automation Suite:\n\nSmart Deduplication: Logic to check for existing cases via API before creation.\n\nRules-Based Assignment: Auto-assign cases to correct queues based on priority/category.\n\nAuto-Escalation: Automated processes to escalate cases breaching SLAs.\n\nCreative Technical Solution: Overcame an Apex limitation for external..."
+  },
+  {
+    "id": 6,
+    "title": "Salesforce Implementation for Education Management Platform",
+    "client": "EdTech Organization",
+    "domain": null,
+    "industry": "Education",
+    "challenge": "Fragmented data and manually managed operations with lead and contact information scattered across platforms. Manual follow-ups and reminders, lack of unified booking lifecycle, no automated data validation, limited visibility into school partners and tutors, and slow reporting due to manual dependency.",
+    "solution": "Implemented comprehensive Salesforce solution with booking lifecycle automation, lead-to-opportunity-to-enrolment workflow, and contact enrichment. Created custom objects for field trips and guest speakers. Integrated with multiple third-party systems including ISC Outreach for school sync, Reoon for email verification, Yoti for IDV, and Spacewalk for tutor management. Built record-triggered flows, scheduled flows, and Apex batch jobs with custom Lightning Components and Experience Cloud sites.",
+    "results": "Achieved 70% reduction in manual tasks due to flows and automation. Real-time school data sync improved accuracy. Reduced email bounce rate through automated verification. Improved forecasting with custom metrics and dashboards. Enhanced booking lifecycle with enforced validations and increased tutor assignment accuracy with automation checks.",
+    "technologies": [
+      "Salesforce",
+      "Apex",
+      "Integration",
+      "Lightning",
+      "Experience Cloud",
+      "AWS"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services",
+      "Salesforce Consulting"
+    ],
+    "year": "2024",
+    "useCaseSummary": "USE CASES – Immerse Education Salesforce Implementation\n\n\n\n\n\n\n\nHimanshu Dixit\n\n\n\n\n\n\n\n\n\nSalesforce Enhancement for Lead, Booking, and Programme Management at Immerse Education\n\n\n\nPrimary Actors\n\nAdmissions Team – manages student bookings, lead follow-ups, and enrolments\n\nSales Team – manages Leads, Opportunities (Bookings), and partner schools\n\nProgramme Team – handles programme sessions, tutor assignments, and participant management\n\nFinance Team – tracks invoices, payments, and forecast data\n\nSystem Admin – manages configuration, automations, and user access\n\nExternal Systems – ISC Outreach, Reoon Email Verification, Yoti IDV, Spacewalk\n\n\n\nStakeholders & Interests\n\nStakeholder\n\nInterest\n\nImmerse Education\n\nCentralized CRM, accurate data, automation, better reporting\n\nAdmissions/Sales\n\nQuick enrolment, reduced manual work, reliable lead data\n\nProgramme Team\n\nAutomated status updates, tutor assignment validations\n\nFinance\n\nAccurate invoice data and forecasting\n\nManagement\n\nClear dashboards, KPIs, year-on-year performance insights\n\n\n\nBusiness Problem\n\nImmerse Education faced challenges due to fragmented data and manually managed operations:\n\nLead and Contact information scattered across platforms\n\nManual follow-ups and reminders\n\nLack of a unified booking lifecycle\n\nNo automated data validation\n\nLimited visibility into school partners, tutors, and programme operations\n\nSlow reporting and forecasting due to manual dependency\n\n\n\nBusiness Goals\n\nCentralize all Leads, Contacts, Schools, Bookings\n\nAutomate booking lifecycle and tutor–student assignment processes\n\nImprove data accuracy with email and identity verification\n\nEnable accurate revenue forecasting\n\nStreamline admissions and application workflows\n\nEnsure scalability with automated school data sync and external API integrations\n\n\n\nScope of the Solution\n\nIn Scope\n\nBooking lifecycle automation\n\nLead → Opportunity → Enrolment workflow\n\nContact and School (Account) enrichment\n\nCustom objects: Field Trip, Guest Speaker\n..."
+  },
+  {
+    "id": 7,
+    "title": "Partner Portal and Quote Management System",
+    "client": "Engineering Services Organization",
+    "domain": null,
+    "industry": "Engineering",
+    "challenge": "Manual, disjointed commercial processes resulted in slow quote turnaround with lengthy back-and-forth to gather requirements. Manually created PDFs lacked professionalism and consistent branding. No dedicated channel for partners to submit and track requests, creating poor partner experience.",
+    "solution": "Built a secure Experience Cloud site for partners and guests. Implemented Flows and Aura components to handle parent-child relationship logic for quotes and line items within forms. Created automated quote generation with professional branding and streamlined internal support workflows.",
+    "results": "Simplified quote creation for partners and streamlined internal support workflows. Established a professional digital front door for the business. Improved partner satisfaction and reduced quote turnaround time. Enhanced brand consistency with automated document generation.",
+    "technologies": [
+      "Salesforce",
+      "Apex",
+      "Integration",
+      "Lightning",
+      "Experience Cloud",
+      "Visualforce",
+      "AWS"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Consulting"
+    ],
+    "year": "2023",
+    "useCaseSummary": "SPECIALIST ENGINEERING & CONTRACTING COMPANY – RIYADH\n\n\n\n\n\n\n\nHimanshu Dixit\n\n[Course title]\n\n\n\n\n\n\n\nSPECIALIST ENGINEERING & CONTRACTING COMPANY – RIYADH\n\nThe engineering firm's partner and client engagement for quotes and support was manual, slow, and lacked professionalism, relying on email and unstructured requests.\n\nThis project delivered a branded, self-service Experience Cloud portal that transformed partner interactions. Partners can now submit structured requests, automatically generate quotes with complex line items, and receive professionally branded PDFs via automated workflows. This streamlined the entire commercial workflow from inquiry to formal proposal.\n\nUser Profile & Problem Statement\n\nItem\n\nDescription\n\nPrimary Actors\n\nExternal Partners/Guests, Internal Sales & Project Managers\n\nCore Problem\n\nManual, disjointed commercial processes resulted in:• Slow Quote Turnaround: Lengthy back-and-forth to gather requirements and generate documents.• Inconsistent Branding: Manually created PDFs lacked professionalism.• Poor Partner Experience: No dedicated channel for partners to submit and track requests.\n\n\n\nGoals & Success Metrics\n\nGoal\n\nSuccess Metric\n\nDigitize Partner Engagement\n\nProvide a 24/7 portal for partners to submit order/quote requests.\n\nAutomate Document Generation\n\nAutomate the creation and delivery of professionally branded PDF quotes/invoices.\n\nStreamline Internal Workflows\n\nCreate automated case and quote management flows for internal teams.\n\nControl External Access Securely\n\nManage guest user permissions within the Experience Cloud site.\n\n\n\n Key Solutions & Impact\n\nSelf-Service Portal: Built a secure Experience Cloud site for partners and guests.\n\nComplex Quote Automation: Implemented Flows and Aura components to handle parent-child relationship logic for quotes and line items within forms.\n\nProfessional Document Handling: Used Visualforce for PDF generation and REST callouts to automatically send documents to external systems/partners.\n\nBusi..."
+  },
+  {
+    "id": 8,
+    "title": "Consumer Goods Cloud Enhancement with Mobile Data Capture",
+    "client": "Consumer Goods Organization",
+    "domain": null,
+    "industry": "Consumer Goods",
+    "challenge": "Limited in-store data capture capabilities with only True/False questions and no ability to capture SKU-level inventory data. No ability to track specific product population in stores, leading to guesswork in supply chain planning. Field representatives needed better tools for data collection during store visits.",
+    "solution": "Enhanced Consumer Goods Cloud with dynamic Screen Flows featuring Yes/No buttons, conditional logic, and embedded Lightning Web Components. Created custom Store Population object to log detailed product information including mattress type, quantity, and size. Built comprehensive mobile solution for field representatives.",
+    "results": "Transformed data intelligence from basic visit tracking to detailed product-level inventory data. Enabled data-driven decisions in sales, supply chain, and marketing. Streamlined visit process, reduced administrative burden on reps, and increased quality and quantity of data captured per visit. Provided precise data to support conversations with retailers about inventory and product placement.",
+    "technologies": [
+      "Salesforce Consumer Goods Cloud",
+      "Lightning",
+      "LWC",
+      "AWS"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services"
+    ],
+    "year": "2024",
+    "useCaseSummary": "Casper – Consumer Goods Cloud project\n\n\n\n\n\n\n\nHimanshu Dixit\n\n\n\n\n\n\n\n\n\nIntroduction\n\nCasper's field sales team relied on rigid, checklist-based tools within Consumer Goods Cloud for store visits. The standard Action Plan Templates limited data capture to simple true/false toggles and could not handle the complex, variable data required for mattress inventory tracking. This resulted in incomplete data, a poor user experience for field reps, and a lack of granular insights into in-store product placement.\n\nThis project transformed the retail execution process by leveraging the flexibility of Salesforce Screen Flows and custom Lightning Web Components (LWC). We replaced the static template with a dynamic, guided mobile experience that captures rich, structured data—including detailed mattress counts—directly in the store. This delivers superior visit quality data, empowers reps, and provides the business with unprecedented visibility into both per-visit execution and long-term store performance.\n\n\n\nCore Business Problems Solved\n\nProblem Area\n\nBefore (Standard CGC)\n\nAfter (Enhanced with Casper)\n\nIn-Store Data Capture\n\nLimited to True/False questions; no ability to capture SKU-level inventory data.\n\nDynamic Screen Flows with Yes/No buttons, conditional logic, and an embedded LWC to log mattress type, quantity, and size.\n\nData Granularity & Accuracy\n\nNo ability to track specific product population in stores, leading to guesswork in supply chain planning.\n\nEach mattress entry creates a record in a custom Store Population object, building a precise, store-level inventory dataset.\n\nRep Experience & Adoption\n\nCumbersome, unintuitive interfaces led to data entry errors and low compliance.\n\nUser-friendly, mobile-optimized flows that guide reps step-by-step, improving accuracy and adoption.\n\nPerformance Insights\n\nSiloed data: basic visit completion stats vs. vague store health metrics.\n\nIntegrated KPI Framework: Retail Visit KPI for visit-quality insights and Retail Store KPI for ..."
+  },
+  {
+    "id": 9,
+    "title": "Salesforce Implementation for Geotechnical Services",
+    "client": "Geotechnical Services Organization",
+    "domain": null,
+    "industry": "Geotechnical Services",
+    "challenge": "Manual processes created data silos and compliance challenges. Lack of automated workflows and limited visibility into operations. Difficulty in tracking projects, client communications, and regulatory compliance requirements.",
+    "solution": "Implemented comprehensive Salesforce solution that eliminates data silos, automates compliance tracking, and provides leadership with actionable dashboards. Created custom objects and workflows specific to geotechnical services. Integrated with existing systems and established automated reporting.",
+    "results": "Significant improvement in operational efficiency and customer satisfaction. Automated compliance tracking reduced risk and improved accuracy. Enhanced visibility through comprehensive dashboards enabled better decision-making. Streamlined project management and client communication processes.",
+    "technologies": [
+      "Salesforce",
+      "Apex",
+      "Integration",
+      "Lightning",
+      "Visualforce",
+      "AWS"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services",
+      "Salesforce Consulting"
+    ],
+    "year": "2023",
+    "useCaseSummary": "Use Cases – Geo Technique & Foundation Salesforce Implementation\n\n\n\n\n\n\n\nHimanshu Dixit\n\n\n\n\n\n\n\nIntroduction\n\nGeo Technique & Foundation's project management and client engagement processes were manual, paper-based, and siloed across departments. This led to delayed proposals, lost documents, poor equipment visibility, and inefficient client collaboration.\n\nThis Salesforce implementation has created a unified digital command center. It streamlines the entire project lifecycle—from the first client proposal to final invoicing—while providing real-time tracking for critical field equipment. By integrating Google Drive for document management and Experience Cloud for external collaboration, the solution eliminates data silos, automates compliance, and provides leadership with actionable dashboards, transforming operational efficiency and client service.\n\n\n\nCore Business Problems Solved\n\nProblem Area\n\nBefore (Manual Process)\n\nAfter (Automated Salesforce Solution)\n\nProposal Management\n\nSpreadsheets, email attachments, forgotten follow-ups.\n\nCentralized Proposal Log with automated status tracking, document storage, and scheduled reminders.\n\nProject & Billing\n\nDisconnected finance process; manual invoice generation.\n\nOne-click Proposal-to-Project conversion with auto-generated, branded PDF invoices and quotes.\n\nEquipment Tracking\n\nPaper logs, unknown asset status, reactive maintenance.\n\nLive Equipment Condition updates via mobile-friendly LWC, triggering proactive notifications and tasks.\n\nClient/Supplier Collaboration\n\nEmail chains, lost files, poor visibility.\n\nSecure Experience Cloud Portal for external parties to submit documents and track proposal status.\n\nReporting & Oversight\n\nManual data aggregation, outdated reports.\n\nReal-time Dashboards for proposal pipelines, equipment health, and departmental performance.\n\n\n\n\n\nUse Cases – Geo Technique & Foundation Salesforce Implementation\n\nUse Case 1: Create and Manage Proposal Log\n\n1. Use Case Name\n\nCreate & Manage Client/Sup..."
+  },
+  {
+    "id": 10,
+    "title": "Enterprise Support System Modernization",
+    "client": "Government Postal Services",
+    "domain": null,
+    "industry": "Government/Postal Services",
+    "challenge": "Unmanageable complexity and manual processes in a massive organization led to slow response times with manual email parsing and case assignment. Operational errors from inconsistent ownership transfers and task creation. Development bottlenecks due to difficulty in adding features with intertwined, untestable code.",
+    "solution": "Created Apex Data Layering via interfaces, establishing a mockable, testable foundation for all major objects (Case, Contact, Task). This architectural approach drastically improved code quality and debugging speed. Streamlined and automated critical support workflows while providing a robust pattern to manage organizational complexity.",
+    "results": "Streamlined and automated critical support workflows, improving efficiency. Provided a robust architectural pattern to manage the org's complexity and enable future scalability. Empowered the development team by resolving deep technical blockers, helping them meet project timelines. Improved code quality, testability, and maintainability.",
+    "technologies": [
+      "Salesforce",
+      "Apex",
+      "Integration",
+      "Lightning",
+      "AWS"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services",
+      "Salesforce Consulting"
+    ],
+    "year": "2024",
+    "useCaseSummary": "Use Cases – US Postal Services\n\n\n\n\n\n\n\nHimanshu Dixit\n\n\n\n\n\n\n\nIntroduction\n\nThe USPS provider's Salesforce org was large, complex, and burdened with manual support processes. Critical workflows for lead management, email triage, and ownership transfers were inefficient and error-prone.\n\nThis project introduced a modern, scalable automation layer and a sophisticated architectural foundation. By implementing a data layering framework with Apex interfaces, we enabled reusable, testable code that simplified development in a data-heavy environment. Key automations—like intelligent Email-to-Case parsing and a batch ownership transfer system—streamlined operations, resolved critical blockers, and empowered the junior team to deliver faster.\n\n User Profile & Problem Statement\n\nItem\n\nDescription\n\nPrimary Actors\n\nSupport Agents, Operations Managers\n\nCore Problem\n\nUnmanageable complexity and manual processes in a massive org led to:• Slow Response Times: Manual email parsing and case assignment.• Operational Errors: Inconsistent ownership transfers and task creation.• Development Bottlenecks: Difficulty in adding features due to intertwined, untestable code.\n\n\n\nGoals & Success Metrics\n\nGoal\n\nSuccess Metric\n\nAutomate High-Volume Processes\n\nEliminate manual steps in email triage and case/lead ownership management.\n\nImprove Development Velocity\n\nCreate a clean, reusable architecture to accelerate future enhancements.\n\nEnhance Operational Visibility\n\nProvide real-time dashboards for tracking ownership, SLAs, and tasks.\n\nEnsure System Reliability\n\nResolve critical production blockers to maintain business continuity.\n\n\n\nKey Solutions & Impact\n\nArchitectural Win: Apex Data Layering via interfaces created a mockable, testable foundation for all major objects (Case, Contact, Task), drastically improving code quality and debugging speed.\n\nAutomation Highlights:\n\nEmail-to-Case 2.0: Used regex and HTML parsing to intelligently extract data from email bodies, surpassing standard functionalit..."
+  },
+  {
+    "id": 11,
+    "title": "Field Service Lightning Scheduler and Calendar Integration",
+    "client": "Field Service Organization",
+    "domain": null,
+    "industry": "Field Services",
+    "challenge": "Field service operations lacked efficient scheduling and calendar management capabilities. Manual scheduling processes created conflicts, double-bookings, and poor resource utilization. Service technicians and dispatchers needed a unified view of appointments, availability, and service windows to optimize field operations.",
+    "solution": "Implemented Field Service Lightning (FSL) with integrated scheduler and calendar functionality. Developed custom components to seamlessly integrate scheduling capabilities with existing Salesforce workflows. Created a unified scheduling interface that provides real-time visibility into technician availability, service appointments, and resource allocation across the organization.",
+    "results": "Eliminated scheduling conflicts and double-bookings through automated calendar integration. Improved resource utilization and technician efficiency. Enhanced customer satisfaction with accurate appointment scheduling and real-time updates. Streamlined field service operations with a single, unified scheduling system.",
+    "technologies": [
+      "Salesforce",
+      "Field Service Lightning",
+      "Lightning",
+      "LWC",
+      "Integration",
+      "AWS"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services",
+      "Salesforce Consulting"
+    ],
+    "year": "2025"
+  },
+  {
+    "id": 12,
+    "title": "Custom LWC Excel-Style Interface for Education Data Management",
+    "client": "Education Institution",
+    "domain": null,
+    "industry": "Education",
+    "challenge": "End users struggled with complex Salesforce interfaces that required navigating multiple objects and screens to access related data. The complexity of pulling data from multiple objects created confusion and reduced productivity. Users needed a familiar, spreadsheet-like interface that consolidated all relevant information in a single, easy-to-use screen.",
+    "solution": "Developed a custom Lightning Web Component (LWC) that replicated an enhanced Excel sheet format. The component aggregates data from multiple Salesforce objects into a single, intuitive interface. Eliminated the need for users to navigate between different objects and screens, providing all necessary information in one consolidated view that mimics familiar spreadsheet functionality.",
+    "results": "Significantly improved user adoption and productivity by providing a familiar, intuitive interface. Eliminated complexity of multi-object data navigation, reducing training time and user errors. Enhanced user experience with all relevant data accessible in a single screen. Streamlined workflows and increased efficiency for end users working with complex data relationships.",
+    "technologies": [
+      "Salesforce",
+      "Lightning",
+      "LWC",
+      "Apex",
+      "Integration",
+      "AWS"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services",
+      "Salesforce Consulting"
+    ],
+    "year": "2025"
+  },
+  {
+    "id": 13,
+    "title": "Pardot and Salesforce Marketing Automation Integration",
+    "client": "Marketing Organization",
+    "domain": null,
+    "industry": "Marketing Technology",
+    "challenge": "Marketing and sales teams lacked visibility into campaign performance and lead attribution. Disconnected systems made it difficult to track multi-touch attribution across different data entry points. Manual campaign management and lead nurturing processes were time-consuming and inefficient.",
+    "solution": "Synchronized Pardot with Salesforce, establishing connected campaigns for seamless data flow. Configured Engagement Studio to set up automated drip campaigns for lead nurturing. Developed comprehensive reporting solutions to understand multi-touch attribution across different data entry points, providing actionable insights into marketing effectiveness.",
+    "results": "Achieved seamless integration between marketing and sales systems with connected campaigns. Automated lead nurturing through drip campaigns improved engagement rates and conversion. Enhanced visibility into marketing performance with multi-touch attribution reports. Enabled data-driven decision making with comprehensive insights into customer journey and revenue attribution.",
+    "technologies": [
+      "Salesforce",
+      "Pardot",
+      "Marketing Cloud",
+      "Integration",
+      "Reporting",
+      "AWS"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services",
+      "Salesforce Consulting"
+    ],
+    "year": "2025"
+  },
+  {
+    "id": 14,
+    "title": "HubSpot and Salesforce Integration with Multi-Touch Attribution",
+    "client": "Sales and Marketing Organization",
+    "domain": null,
+    "industry": "Sales and Marketing",
+    "challenge": "Disconnected marketing and sales systems created data silos and manual processes. Contact, lead, and deal management required duplicate data entry across platforms. Data sync and migration issues caused inconsistencies. Lack of visibility into multi-touch attribution across multiple sources made it difficult to understand revenue breakdown and marketing ROI.",
+    "solution": "Implemented HubSpot workflows and established a robust connector between HubSpot and Salesforce. Configured Contact, Lead, and Deal synchronization with automated data lifecycle management. Resolved data sync and migration issues to ensure data consistency. Set up forms to capture data seamlessly across platforms. Developed comprehensive reporting to understand multi-touch attribution across multiple sources and provide detailed revenue breakdown analysis.",
+    "results": "Eliminated data silos with seamless HubSpot-Salesforce integration. Automated data synchronization reduced manual data entry and improved data accuracy. Enhanced marketing ROI visibility with multi-touch attribution reporting. Improved revenue tracking and breakdown analysis enabled better decision-making. Streamlined lead-to-deal conversion process with automated workflows and data lifecycle management.",
+    "technologies": [
+      "Salesforce",
+      "HubSpot",
+      "Integration",
+      "Workflow Automation",
+      "Reporting",
+      "AWS"
+    ],
+    "services": [
+      "Salesforce Implementation",
+      "Salesforce Integration Services",
+      "Salesforce Consulting"
+    ],
+    "year": "2025"
+  },
+  {
+    "id": 15,
+    "title": "Google Drive File Management Portal with Access Control",
+    "client": "Client Services Organization",
+    "domain": null,
+    "industry": "Professional Services",
+    "challenge": "File management across Google Drive was disorganized and lacked structure. Teams struggled to locate client files across multiple folders. No centralized view of folder structure or client details. Access control was difficult to manage, with no ability to restrict access based on teams or companies.",
+    "solution": "Developed a standalone custom file management portal integrated with Google Drive. Created a tree-structured interface displaying folder hierarchy for easy navigation. Built client detail management system with file organization capabilities. Implemented role-based access control to restrict file access based on teams and companies, ensuring data security and proper permissions management.",
+    "results": "Improved file organization and discoverability with tree-structured folder view. Enhanced client file management with centralized portal interface. Strengthened data security with team and company-based access restrictions. Reduced time spent searching for files and improved collaboration efficiency. Streamlined file management processes with intuitive interface and proper access controls.",
+    "technologies": [
+      "Google Drive API",
+      "Integration",
+      "Access Control",
+      "Web Development",
+      "AWS"
+    ],
+    "services": [
+      "Custom Development",
+      "Web Application Development"
+    ],
+    "year": "2025"
+  },
+  {
+    "id": 16,
+    "title": "Company Employee Portal with Task Management and Leave Tracking",
+    "client": "Corporate Organization",
+    "domain": null,
+    "industry": "Corporate Services",
+    "challenge": "Employees lacked a centralized platform to manage tasks, track leave, and stay informed about team activities. Task management was fragmented across different tools. Leave management required manual coordination and team members were often unaware of colleagues' leave schedules. No visibility into upcoming company events, leading to scheduling conflicts and missed opportunities for team engagement.",
+    "solution": "Developed a standalone web application company portal for employees. Created a Jira-like interface for comprehensive task management, enabling teams to track projects, assign tasks, and monitor progress. Implemented leave management system allowing employees to request leave and automatically notify team members when someone is on leave. Built event management functionality to display upcoming company events, ensuring better team coordination and engagement.",
+    "results": "Centralized task management improved team productivity and project visibility. Automated leave notifications eliminated scheduling conflicts and improved team coordination. Enhanced team awareness with real-time visibility into leave schedules and upcoming events. Streamlined employee experience with a single portal for task management, leave tracking, and event information. Improved organizational efficiency through better communication and coordination.",
+    "technologies": [
+      "Web Development",
+      "Task Management",
+      "Access Control",
+      "AWS"
+    ],
+    "services": [
+      "Custom Development",
+      "Web Application Development"
+    ],
+    "year": "2025"
+  }
+]
