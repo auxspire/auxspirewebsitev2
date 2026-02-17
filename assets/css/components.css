@@ -139,13 +139,13 @@ a:focus-visible {
 
 .site-nav {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
 .site-logo {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 10px;
   font-family: var(--font);
   font-weight: 700;
