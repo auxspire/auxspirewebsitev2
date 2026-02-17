@@ -3,7 +3,7 @@
  * Respects prefers-reduced-motion
  */
 
-/* Page load fade */
+/* Page load fade – subtle */
 @keyframes pageFadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -11,7 +11,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   body {
-    animation: pageFadeIn 0.4s ease-out;
+    animation: pageFadeIn 0.55s ease-out;
   }
 }
 
@@ -21,15 +21,15 @@
   }
 }
 
-/* Hero electric overlay - subtle pulse (no layout/click impact) */
+/* Hero grid overlay – very subtle pulse */
 @keyframes hero-circuit-pulse {
-  0%, 100% { opacity: 0.35; }
-  50% { opacity: 0.5; }
+  0%, 100% { opacity: 0.18; }
+  50% { opacity: 0.26; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .hero::after {
-    animation: hero-circuit-pulse 5s ease-in-out infinite;
+    animation: hero-circuit-pulse 6s ease-in-out infinite;
   }
 }
 
@@ -39,17 +39,109 @@
   }
 }
 
-/* Section fade-up on enter */
+/* Data-flow line keyframes – background position shift */
+@keyframes data-flow-shift {
+  from { background-position: 0% 50%; }
+  to { background-position: 200% 50%; }
+}
+
+/* Abstract orbs – gentle float and soft pulse */
+@keyframes orb-float-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(8px, -12px) scale(1.02); }
+  66% { transform: translate(-6px, 8px) scale(0.98); }
+}
+@keyframes orb-float-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-10px, -8px) scale(1.03); }
+}
+@keyframes orb-float-3 {
+  0%, 100% { transform: translate(0, 0); }
+  25% { transform: translate(12px, 6px); }
+  75% { transform: translate(-8px, -10px); }
+}
+@keyframes orb-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.55; }
+}
+@keyframes mesh-drift {
+  0%, 100% { opacity: 0.9; transform: scale(1) translate(0, 0); }
+  50% { opacity: 1; transform: scale(1.05) translate(2%, 1%); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero .abstract-orb--1 { animation: orb-float-1 14s ease-in-out infinite; }
+  .hero .abstract-orb--2 { animation: orb-float-2 18s ease-in-out infinite; }
+  .hero .abstract-orb--3 { animation: orb-float-3 16s ease-in-out infinite; }
+  .hero .abstract-orb--4 { animation: orb-float-1 12s ease-in-out infinite 1s; }
+  .hero .abstract-orb--5 { animation: orb-float-2 15s ease-in-out infinite 0.5s; }
+  .abstract-orbs--section .abstract-orb--1,
+  .abstract-orbs--cta .abstract-orb--1 { animation: orb-float-1 16s ease-in-out infinite; }
+  .abstract-orbs--section .abstract-orb--2,
+  .abstract-orbs--cta .abstract-orb--2 { animation: orb-float-2 14s ease-in-out infinite 0.8s; }
+  .abstract-orbs--section .abstract-orb--3,
+  .abstract-orbs--cta .abstract-orb--3 { animation: orb-float-3 18s ease-in-out infinite 0.3s; }
+  .abstract-orbs--cta .abstract-orb--4 { animation: orb-pulse 6s ease-in-out infinite; }
+  .page-circuit-bg::before { animation: mesh-drift 20s ease-in-out infinite; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .abstract-orb { animation: none !important; }
+  .page-circuit-bg::before { animation: none; }
+}
+
+/* Circuit nodes – subtle pulse (SVG circles in circuit background) */
+@keyframes circuit-node-pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .circuit-nodes circle {
+    transform-origin: center;
+    animation: circuit-node-pulse 3s ease-in-out infinite;
+  }
+  .circuit-nodes circle:nth-child(1) { animation-delay: 0s; }
+  .circuit-nodes circle:nth-child(2) { animation-delay: 0.4s; }
+  .circuit-nodes circle:nth-child(3) { animation-delay: 0.8s; }
+  .circuit-nodes circle:nth-child(4) { animation-delay: 0.2s; }
+  .circuit-nodes circle:nth-child(5) { animation-delay: 0.6s; }
+  .circuit-nodes circle:nth-child(6) { animation-delay: 1s; }
+  .circuit-nodes circle:nth-child(7) { animation-delay: 0.3s; }
+  .circuit-nodes circle:nth-child(8) { animation-delay: 0.7s; }
+  .circuit-nodes circle:nth-child(9) { animation-delay: 0.5s; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .circuit-nodes circle { animation: none; }
+}
+
+/* Section fade-up on enter – subtle lift */
 .animate-section {
   opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  transform: translateY(14px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: transform, opacity;
 }
 
 .animate-section.animate-in {
   opacity: 1;
   transform: translateY(0);
+  will-change: auto;
 }
+
+/* Staggered card fade-in when section enters view */
+.animate-section .cards .card {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.45s ease-out, transform 0.45s ease-out;
+}
+.animate-section.animate-in .cards .card {
+  opacity: 1;
+  transform: translateY(0);
+}
+.animate-section.animate-in .cards .card:nth-child(1) { transition-delay: 0.06s; }
+.animate-section.animate-in .cards .card:nth-child(2) { transition-delay: 0.14s; }
+.animate-section.animate-in .cards .card:nth-child(3) { transition-delay: 0.22s; }
+.animate-section.animate-in .cards .card:nth-child(4) { transition-delay: 0.3s; }
+.animate-section.animate-in .cards .card:nth-child(5) { transition-delay: 0.38s; }
+.animate-section.animate-in .cards .card:nth-child(6) { transition-delay: 0.46s; }
 
 @media (prefers-reduced-motion: reduce) {
   .animate-section {
@@ -60,6 +152,12 @@
   .animate-section.animate-in {
     opacity: 1;
     transform: none;
+  }
+  .animate-section .cards .card,
+  .animate-section.animate-in .cards .card {
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 }
 
@@ -134,5 +232,52 @@
   .form-group input,
   .form-group textarea {
     transition: none;
+  }
+}
+
+/* Dark theme: enterprise hover glow – border 0.08 → cyan 0.35, subtle shadow, optional lift. 250ms ease. */
+.theme-dark .card,
+.theme-dark .btn-primary,
+.theme-dark .btn-accent,
+.theme-dark .hero-btns a,
+.theme-dark .nav-links a,
+.theme-dark .card a.btn {
+  transition: border-color 250ms ease, box-shadow 250ms ease, transform 250ms ease;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+.theme-dark .card:hover,
+.theme-dark .btn-primary:hover,
+.theme-dark .btn-accent:hover,
+.theme-dark .hero-btns a:hover,
+.theme-dark .nav-links a:hover,
+.theme-dark .card a.btn:hover {
+  border-color: rgba(56, 189, 248, 0.35);
+  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.25), 0 0 24px rgba(56, 189, 248, 0.1);
+  transform: translateY(-2px);
+}
+.theme-dark .card a:not(.btn) {
+  transition: border-color 250ms ease, box-shadow 250ms ease;
+}
+.theme-dark .card a:not(.btn):hover {
+  border-color: rgba(56, 189, 248, 0.35);
+  box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.25), 0 0 24px rgba(56, 189, 248, 0.1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-dark .card:hover,
+  .theme-dark .btn-primary:hover,
+  .theme-dark .btn-accent:hover,
+  .theme-dark .hero-btns a:hover,
+  .theme-dark .nav-links a:hover,
+  .theme-dark .card a:hover {
+    transform: none;
+  }
+  .theme-dark .card,
+  .theme-dark .btn-primary,
+  .theme-dark .btn-accent,
+  .theme-dark .hero-btns a,
+  .theme-dark .nav-links a,
+  .theme-dark .card a {
+    transition-duration: 0.12s;
   }
 }

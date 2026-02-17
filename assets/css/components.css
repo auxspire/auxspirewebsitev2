@@ -37,16 +37,77 @@ html {
 
 body {
   font-family: var(--font);
-  background: var(--color-bg);
+  background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 35%, #f8fafc 100%);
   color: var(--color-text);
   line-height: 1.6;
 }
 
+/* Dark theme: body gradient and header/footer so whole homepage is dark */
+body.theme-dark {
+  background: linear-gradient(180deg, #05070A 0%, #050A14 60%, #060816 100%);
+  min-height: 100vh;
+}
+body.theme-dark .site-header {
+  background: var(--color-surface);
+  border-bottom-color: var(--color-border);
+}
+body.theme-dark .site-footer {
+  background: var(--color-bg);
+  border-top-color: var(--color-border);
+  color: var(--color-text-muted);
+}
+body.theme-dark .nav-links a {
+  color: var(--color-text-muted);
+}
+body.theme-dark .nav-links a:hover {
+  color: var(--color-text);
+}
+body.theme-dark .footer-links a {
+  color: var(--color-text-muted);
+}
+body.theme-dark .footer-links a:hover {
+  color: var(--color-text);
+}
+body.theme-dark .nav-toggle {
+  color: var(--color-text);
+}
+body.theme-dark .btn-primary,
+body.theme-dark .btn-accent {
+  border: 1px solid var(--color-border);
+}
+body.theme-dark .hero h1,
+body.theme-dark .hero-badge {
+  color: var(--color-text);
+}
+body.theme-dark .hero p {
+  color: var(--color-text-muted);
+}
+body.theme-dark .cta-section.cta-section-bg h2 {
+  color: var(--color-text);
+}
+body.theme-dark .cta-section.cta-section-bg p {
+  color: var(--color-text-muted);
+}
+
+/* Dark section wrappers – content above AnimatedCircuitBackground (z-index 1) */
+.dark-section {
+  position: relative;
+  padding: var(--space-3xl) 0;
+  overflow: hidden;
+}
+.dark-section .container {
+  position: relative;
+  z-index: 1;
+}
+.dark-section--hero { /* variant for hero with circuit background */ }
+.dark-section--cta { /* variant for CTA with circuit background */ }
+
 a {
-  color: var(--color-primary);
+  color: var(--color-link);
   text-decoration: none;
 }
 a:hover {
+  color: var(--color-link-hover);
   text-decoration: underline;
 }
 a:focus-visible {
@@ -94,8 +155,9 @@ a:focus-visible {
 }
 .site-logo img {
   display: block;
-  height: 36px;
+  height: 48px;
   width: auto;
+  object-fit: contain;
 }
 .site-logo:hover {
   text-decoration: none;
@@ -108,6 +170,7 @@ a:focus-visible {
 }
 .nav-links a {
   color: var(--color-text-muted);
+  transition: color var(--transition-base);
 }
 .nav-links a:hover {
   color: var(--color-text);
@@ -182,6 +245,7 @@ a:focus-visible {
 }
 .footer-links a {
   color: var(--color-text-muted);
+  transition: color var(--transition-base);
 }
 .footer-links a:hover {
   color: var(--color-text);
@@ -193,13 +257,16 @@ a:focus-visible {
   padding: var(--space-3xl) 0 100px;
   text-align: center;
   background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%);
+  background-image: linear-gradient(160deg, rgba(15, 23, 42, 0.97) 0%, transparent 50%),
+    linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%);
   overflow: hidden;
   color: #f8fafc;
 }
 .hero.hero-bg-image {
-  background-image: linear-gradient(135deg, rgba(15, 23, 42, 0.92) 0%, rgba(30, 58, 95, 0.88) 50%, rgba(15, 23, 42, 0.92) 100%),
+  background-image: linear-gradient(160deg, rgba(15, 23, 42, 0.92) 0%, transparent 50%),
+    linear-gradient(135deg, rgba(15, 23, 42, 0.92) 0%, rgba(30, 58, 95, 0.88) 50%, rgba(15, 23, 42, 0.92) 100%),
     url(/stitch/hero-bg.png);
-  background-size: cover;
+  background-size: cover, cover, cover;
   background-position: center;
 }
 .hero h1,
@@ -209,17 +276,17 @@ a:focus-visible {
 .hero p {
   color: #cbd5e1;
 }
-/* Electric/circuit overlay: non-blocking, behind content */
+/* Hero grid overlay – very subtle */
 .hero::after {
   content: '';
   position: absolute;
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.5;
+  opacity: 0.35;
   background-image:
-    linear-gradient(90deg, rgba(34, 211, 238, 0.06) 1px, transparent 1px),
-    linear-gradient(rgba(34, 211, 238, 0.06) 1px, transparent 1px);
+    linear-gradient(90deg, rgba(34, 211, 238, 0.04) 1px, transparent 1px),
+    linear-gradient(rgba(34, 211, 238, 0.04) 1px, transparent 1px);
   background-size: 48px 48px;
   mask-image: radial-gradient(ellipse 80% 70% at 50% 30%, black 20%, transparent 70%);
   -webkit-mask-image: radial-gradient(ellipse 80% 70% at 50% 30%, black 20%, transparent 70%);
@@ -233,13 +300,13 @@ a:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: var(--space-sm);
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(34, 211, 238, 0.3);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(34, 211, 238, 0.2);
   padding: var(--space-sm) var(--space-md);
   border-radius: var(--radius);
   margin-bottom: var(--space-lg);
   font-size: var(--text-sm);
-  color: var(--color-accent-neon);
+  color: rgba(34, 211, 238, 0.9);
 }
 
 .hero h1 {
@@ -273,7 +340,7 @@ a:focus-visible {
   font-size: var(--text-base);
   cursor: pointer;
   border: none;
-  transition: filter var(--transition-base), border-color var(--transition-base), color var(--transition-base);
+  transition: filter var(--transition-base), border-color var(--transition-base), color var(--transition-base), box-shadow var(--transition-base), transform var(--transition-base);
   text-decoration: none;
   min-height: 44px;
   min-width: 44px;
@@ -289,11 +356,11 @@ a:focus-visible {
 
 .btn-primary {
   background: var(--color-primary);
-  color: white;
+  color: var(--color-text-on-primary);
 }
 .btn-primary:hover {
-  filter: brightness(1.1);
-  box-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
+  filter: brightness(1.04);
+  box-shadow: 0 2px 12px rgba(19, 109, 236, 0.2);
 }
 
 .btn-outline {
@@ -306,22 +373,22 @@ a:focus-visible {
   color: var(--color-primary);
 }
 
-/* Hero outline button - light on dark */
+/* Hero outline button - light on dark, subtle */
 .hero .btn-outline {
-  border-color: rgba(255, 255, 255, 0.4);
+  border-color: rgba(255, 255, 255, 0.35);
   color: #f8fafc;
 }
 .hero .btn-outline:hover {
-  border-color: var(--color-accent-neon);
-  color: var(--color-accent-neon);
+  border-color: rgba(34, 211, 238, 0.6);
+  color: rgba(34, 211, 238, 0.95);
 }
 
 .btn-accent {
   background: var(--color-primary);
-  color: white;
+  color: var(--color-text-on-primary);
 }
 .btn-accent:hover {
-  filter: brightness(1.1);
+  filter: brightness(1.04);
 }
 
 /* Sections */
@@ -345,7 +412,7 @@ section {
   margin: 0 auto;
 }
 
-/* Section header neon accent */
+/* Section header – subtle accent line */
 .section-header h2 {
   position: relative;
   display: inline-block;
@@ -356,10 +423,11 @@ section {
   left: 50%;
   bottom: -8px;
   transform: translateX(-50%);
-  width: 48px;
+  width: 40px;
   height: 2px;
   background: linear-gradient(90deg, var(--color-primary), var(--color-accent-neon));
   border-radius: 1px;
+  opacity: 0.7;
 }
 
 /* Badge - shadcn-like pill */
@@ -436,16 +504,20 @@ section {
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   padding: var(--space-xl);
-  box-shadow: var(--shadow-sm);
-  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  box-shadow: var(--shadow-card);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
 }
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card-hover);
+  border-color: rgba(19, 109, 236, 0.12);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .card:hover {
+    transform: none;
+  }
+  .location:hover {
     transform: none;
   }
 }
@@ -527,7 +599,13 @@ section {
   border-radius: var(--radius);
   padding: var(--space-xl);
   text-align: center;
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-card-subtle);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+}
+.location:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-card-hover);
+  border-color: rgba(19, 109, 236, 0.1);
 }
 
 .location h4 {
@@ -573,11 +651,32 @@ section {
 }
 
 .cta-section-bg {
-  background-color: var(--color-bg);
-  background-image: linear-gradient(135deg, rgba(15, 23, 42, 0.94) 0%, rgba(30, 58, 95, 0.9) 100%),
-    url(/stitch/cta-bg.png);
-  background-size: cover;
+  background-color: #0f172a;
+  background-image: linear-gradient(180deg, rgba(30, 58, 95, 0.4) 0%, transparent 50%),
+    linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%);
+  background-size: cover, cover;
   background-position: center;
+}
+.cta-section-bg.cta-section-bg-image {
+  background-image: linear-gradient(180deg, rgba(30, 58, 95, 0.5) 0%, transparent 50%),
+    linear-gradient(135deg, rgba(15, 23, 42, 0.94) 0%, rgba(30, 58, 95, 0.9) 100%),
+    url(/stitch/cta-bg.png);
+  background-size: cover, cover, cover;
+}
+.cta-section.cta-section-bg h2,
+.cta-section.cta-section-bg p {
+  color: #f8fafc;
+}
+.cta-section.cta-section-bg p {
+  color: #cbd5e1;
+}
+.cta-section.cta-section-bg .btn-outline {
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #f8fafc;
+}
+.cta-section.cta-section-bg .btn-outline:hover {
+  border-color: rgba(34, 211, 238, 0.6);
+  color: rgba(34, 211, 238, 0.95);
 }
 
 /* Section accent - subtle gradient background */
@@ -725,6 +824,11 @@ section {
   font-weight: 500;
   color: var(--color-text-muted);
   border: 1px solid var(--color-border);
+  transition: background-color var(--transition-base), border-color var(--transition-base), color var(--transition-base);
+}
+.industry-tag:hover {
+  border-color: rgba(19, 109, 236, 0.2);
+  color: var(--color-text);
 }
 
 /* Platforms & Integrations section */
