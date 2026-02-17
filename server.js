@@ -4,6 +4,8 @@ const path = require('path');
 
 const PORT = process.env.PORT || 8000;
 const MIME_TYPES = {
+    '.txt': 'text/plain',
+    '.xml': 'application/xml',
     '.html': 'text/html',
     '.htm': 'text/html',
     '.js': 'text/javascript',
@@ -29,6 +31,24 @@ const server = http.createServer((req, res) => {
     const root = '.';
 
     function resolvePath(requestPath) {
+        // Stitch assets: /stitch/* -> public/stitch/*
+        if (requestPath.startsWith('/stitch/')) {
+            const stitchPath = path.join(root, 'public', 'stitch', requestPath.slice(8));
+            if (fs.existsSync(stitchPath)) return stitchPath;
+        }
+
+        // Images: /images/* -> public/images/*
+        if (requestPath.startsWith('/images/')) {
+            const imagesPath = path.join(root, 'public', requestPath.slice(1));
+            if (fs.existsSync(imagesPath)) return imagesPath;
+        }
+
+        // Root-level SEO files (path.join with leading slash can fail on some platforms)
+        if (requestPath === '/robots.txt' || requestPath === '/sitemap.xml') {
+            const seoPath = path.join(root, requestPath.slice(1));
+            if (fs.existsSync(seoPath)) return seoPath;
+        }
+
         // Default: serve homepage (prefer new Stitch index.html)
         if (requestPath === '/' || requestPath === '') {
             const html = path.join(root, 'index.html');

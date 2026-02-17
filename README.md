@@ -33,10 +33,10 @@ A server block for this app is in `deploy/nginx.conf`. Copy it to the VPS `/etc/
 
 ## Design system
 
-The site uses a Stitch-inspired design system in `assets/css/`. Background images are from Stitch: `assets/stitch-hero-screenshot.png` (Auxspire Homepage Design) and `assets/stitch-brand-aligned.png` (Auxspire - Brand Aligned Design).
+The site uses a Stitch-inspired design system in `assets/css/`. All Stitch theme images are served from **`/stitch/`** (files live in `public/stitch/`). See `public/stitch/REQUIRED-ASSETS.md` for the list of required image filenames (logo.png, favicon.png, optional hero/CTA backgrounds).
 
 - **design-system.css** – CSS variables, Desktop (Space Grotesk, #136dec) and Mobile (Inter, #0d7ff2) themes, breakpoint 768px
-- **components.css** – Header, nav, mobile menu, footer, cards, forms, buttons
+- **components.css** – Header, nav, mobile menu, footer, cards, forms, buttons, hero electric overlay
 
 ## Contact form
 

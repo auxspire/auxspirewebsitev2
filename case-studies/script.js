@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         ` : '';
         return `
-            <div class="case-study-card electric-card" data-id="${study.id}" id="study-${study.id}">
+            <div class="case-study-card" data-id="${study.id}" id="study-${study.id}">
                 <div class="case-study-year">${study.year}</div>
                 <div class="case-study-header">
                     <span class="case-study-industry">${study.industry}</span>

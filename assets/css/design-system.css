@@ -1,21 +1,26 @@
 /**
- * Stitch Design System
- * Desktop: Space Grotesk, #136dec (saturation 2)
- * Mobile: Inter, #0d7ff2 (saturation 3)
+ * Premium Enterprise Design System
+ * Light theme, dark text, subtle neon accent
+ * Desktop: Space Grotesk, Mobile: Inter
  * Breakpoint: 768px
  */
 :root {
-  /* Desktop theme (default) */
+  /* Light enterprise theme */
   --color-primary: #136dec;
-  --color-accent: #f97316;
-  --color-bg: #0a0a0f;
-  --color-surface: #12121a;
-  --color-surface-elevated: #1a1a24;
-  --color-text: #e8e8ed;
-  --color-text-muted: #9898a6;
+  --color-accent-neon: #22d3ee;
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-elevated: #f1f5f9;
+  --color-text: #0f172a;
+  --color-text-muted: #64748b;
+  --color-border: rgba(0, 0, 0, 0.08);
   --radius: 8px;
   --font: 'Space Grotesk', system-ui, sans-serif;
   --font-heading: 'Space Grotesk', system-ui, sans-serif;
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
   /* Typography scale */
   --text-xs: 0.75rem;
   --text-sm: 0.9rem;
@@ -40,7 +45,6 @@
 
 @media (max-width: 768px) {
   :root {
-    /* Mobile theme */
     --color-primary: #0d7ff2;
     --font: 'Inter', system-ui, sans-serif;
     --font-heading: 'Inter', system-ui, sans-serif;
