@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="assets/css/components.css">
   <link rel="stylesheet" href="assets/css/animations.css">
   <link rel="stylesheet" href="assets/css/textures.css">
+  <link rel="stylesheet" href="assets/css/abstract-elements.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -49,6 +50,7 @@
   </script>
 </head>
 <body class="theme-dark">
+  <div class="scroll-progress" aria-hidden="true"></div>
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <div class="page-circuit-bg" aria-hidden="true">
     <div class="animated-circuit-bg page-circuit-bg__svg">
@@ -98,7 +100,7 @@
           <a href="/about-us/">About</a>
           <a href="/case-studies/">Case Studies</a>
           <a href="/#why">Why Auxspire</a>
-          <a href="/#impact">Global Impact</a>
+          <a href="/#impact">Global Delivery</a>
           <a href="/contact/">Contact</a>
           <a href="/client-portal/">Client Portal</a>
         </div>
@@ -110,8 +112,49 @@
   </header>
 
   <main id="main-content">
-    <section class="hero dark-section dark-section--hero hero-depth">
+    <section class="hero dark-section dark-section--hero hero-depth noise-overlay">
+      <!-- Particle field canvas -->
+      <div class="particle-canvas" data-particles aria-hidden="true"><canvas></canvas></div>
+      <!-- Circuit pulse animation -->
       <div class="circuit-pulse-canvas" data-circuit-pulse aria-hidden="true"><canvas></canvas></div>
+      <!-- Mesh gradient background -->
+      <div class="mesh-gradient" aria-hidden="true"></div>
+      <!-- Hero circuit network (draw-on-load overlay) -->
+      <div class="hero-circuit-network" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+          <g class="hero-circuit-nodes">
+            <circle cx="200" cy="150" r="3.5"/>
+            <circle cx="450" cy="150" r="3.5"/>
+            <circle cx="700" cy="150" r="3.5"/>
+            <circle cx="1000" cy="150" r="3.5"/>
+            <circle cx="200" cy="400" r="3.5"/>
+            <circle cx="500" cy="400" r="3.5"/>
+            <circle cx="800" cy="400" r="3.5"/>
+          </g>
+          <path class="hero-circuit-line" d="M200 150 L450 150" stroke-width="1"/>
+          <path class="hero-circuit-line" d="M450 150 L700 150" stroke-width="1"/>
+          <path class="hero-circuit-line" d="M700 150 L1000 150" stroke-width="1"/>
+          <path class="hero-circuit-line" d="M200 150 L200 400" stroke-width="1"/>
+          <path class="hero-circuit-line" d="M450 150 L500 400" stroke-width="1"/>
+          <path class="hero-circuit-line" d="M200 400 L500 400" stroke-width="1"/>
+          <path class="hero-circuit-line" d="M500 400 L800 400" stroke-width="1"/>
+        </svg>
+      </div>
+      <!-- Aurora effect -->
+      <div class="aurora-effect" aria-hidden="true"></div>
+      <div class="aurora-waves" aria-hidden="true"></div>
+      <!-- Floating geometric shapes -->
+      <div class="geometric-shapes" aria-hidden="true">
+        <div class="geo-shape geo-shape--1 geo-circle"></div>
+        <div class="geo-shape geo-shape--2 geo-circle--lg"></div>
+        <div class="geo-shape geo-shape--3 geo-diamond"></div>
+        <div class="geo-shape geo-shape--4 geo-circle--sm"></div>
+        <div class="geo-shape geo-shape--5 geo-plus"></div>
+        <div class="geo-shape geo-shape--6 geo-hexagon"></div>
+        <div class="geo-shape geo-shape--7 geo-circle"></div>
+        <div class="geo-shape geo-shape--8 geo-diamond"></div>
+      </div>
+      <!-- Abstract orbs -->
       <div class="abstract-orbs" aria-hidden="true">
         <div class="abstract-orb abstract-orb--1"></div>
         <div class="abstract-orb abstract-orb--2"></div>
@@ -119,6 +162,7 @@
         <div class="abstract-orb abstract-orb--4"></div>
         <div class="abstract-orb abstract-orb--5"></div>
       </div>
+      <!-- Circuit background animation -->
       <div class="animated-circuit-background" aria-hidden="true">
         <div class="animated-circuit-background__base"></div>
         <div class="animated-circuit-background__glow"></div>
@@ -165,7 +209,7 @@
           <span class="material-symbols-outlined">verified_user</span>
           The Future of Enterprise Technology
         </div>
-        <h1>Empowering Enterprise Intelligence</h1>
+        <h1 class="gradient-headline" data-reveal-text>Empowering Enterprise Intelligence</h1>
         <p>We design, build, integrate, and optimize Salesforce ecosystems for fast-growing businesses across the globe.</p>
         <div class="hero-btns">
           <a href="/case-studies/" class="btn btn-primary">View Case Studies <span class="material-symbols-outlined" style="font-size:18px">arrow_forward</span></a>
@@ -173,9 +217,15 @@
         </div>
       </div>
     </section>
+    <div class="metrics-strip" aria-hidden="true">
+      <span class="metrics-strip__text">500+ Automations Deployed • 40+ Integrations • 98% Client Retention • Multi-Timezone Delivery</span>
+    </div>
     <div class="data-flow-line" aria-hidden="true"></div>
 
-    <section id="services" class="animate-section section-with-orbs">
+    <!-- Wave divider between sections -->
+    <div class="wave-divider wave-divider--inline" aria-hidden="true"></div>
+
+    <section id="services" class="animate-section section-with-orbs isometric-grid section-glow-tl">
       <div class="abstract-orbs abstract-orbs--section" aria-hidden="true">
         <div class="abstract-orb abstract-orb--1"></div>
         <div class="abstract-orb abstract-orb--2"></div>
@@ -183,37 +233,37 @@
       </div>
       <div class="container">
         <div class="section-header">
-          <h2>Core Services</h2>
+          <h2 class="gradient-text">Core Services</h2>
           <p>Expert Salesforce implementation and enterprise technology solutions</p>
         </div>
         <div class="cards">
-          <div class="card">
-            <div class="card-icon"><span class="material-symbols-outlined">cloud_sync</span></div>
+          <div class="card card--glass card--glow">
+            <div class="card-icon icon-container"><span class="material-symbols-outlined">cloud_sync</span></div>
             <h3>Salesforce Implementation</h3>
             <p>End-to-end implementation and configuration of Sales, Service, and Experience Cloud with custom Lightning solutions.</p>
           </div>
-          <div class="card">
-            <div class="card-icon"><span class="material-symbols-outlined">smart_toy</span></div>
+          <div class="card card--glass card--glow">
+            <div class="card-icon icon-container"><span class="material-symbols-outlined">smart_toy</span></div>
             <h3>AI & Automation</h3>
             <p>Einstein, Flow, and custom automations that reduce manual work and accelerate business processes.</p>
           </div>
-          <div class="card">
-            <div class="card-icon"><span class="material-symbols-outlined">swap_horiz</span></div>
+          <div class="card card--glass card--glow">
+            <div class="card-icon icon-container"><span class="material-symbols-outlined">swap_horiz</span></div>
             <h3>Data Migration</h3>
             <p>Secure, validated migrations from legacy systems into Salesforce with deduplication and data quality checks.</p>
           </div>
-          <div class="card">
-            <div class="card-icon"><span class="material-symbols-outlined">support_agent</span></div>
+          <div class="card card--glass card--glow">
+            <div class="card-icon icon-container"><span class="material-symbols-outlined">support_agent</span></div>
             <h3>Managed Services</h3>
             <p>Ongoing support, enhancements, and optimization to keep your Salesforce org healthy and scalable.</p>
           </div>
-          <div class="card">
-            <div class="card-icon"><span class="material-symbols-outlined">code_blocks</span></div>
+          <div class="card card--glass card--glow">
+            <div class="card-icon icon-container"><span class="material-symbols-outlined">code_blocks</span></div>
             <h3>App Development</h3>
             <p>Custom Apex, Lightning Web Components, and full-stack applications built for enterprise scale.</p>
           </div>
-          <div class="card">
-            <div class="card-icon"><span class="material-symbols-outlined">web</span></div>
+          <div class="card card--glass card--glow">
+            <div class="card-icon icon-container"><span class="material-symbols-outlined">web</span></div>
             <h3>Web Development</h3>
             <p>Modern, responsive websites and web applications. From marketing sites to complex web portals and dashboards.</p>
           </div>
@@ -221,7 +271,38 @@
       </div>
     </section>
 
-    <section id="why" class="animate-section section-accent section-depth">
+    <section id="capabilities" class="animate-section capabilities-section section-glow-br">
+      <div class="container">
+        <div class="section-header">
+          <h2>Capabilities</h2>
+          <p>Core capabilities that power enterprise delivery</p>
+        </div>
+        <div class="capabilities-icon-row">
+          <div class="capability-icon" title="Automation / Flows" aria-label="Automation and Flows">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h6M14 12h6M10 6v12M7 9l3-3 3 3M7 15l3 3 3-3"/></svg>
+            <span class="capability-icon__label">Automation / Flows</span>
+          </div>
+          <div class="capability-icon" title="Integrations" aria-label="Integrations">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/><path d="M12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg>
+            <span class="capability-icon__label">Integrations</span>
+          </div>
+          <div class="capability-icon" title="Data Migration" aria-label="Data Migration">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"/><path d="M12 8v8M8 12l4 4 4-4"/></svg>
+            <span class="capability-icon__label">Data Migration</span>
+          </div>
+          <div class="capability-icon" title="AI Agents" aria-label="AI Agents">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="6" width="14" height="8" rx="1.5"/><rect x="8" y="14" width="8" height="6" rx="1"/><circle cx="9.5" cy="9.5" r="1"/><circle cx="14.5" cy="9.5" r="1"/><path d="M12 6V4M12 4l-1.5 1.5M12 4l1.5 1.5"/></svg>
+            <span class="capability-icon__label">AI Agents</span>
+          </div>
+          <div class="capability-icon" title="Experience Cloud" aria-label="Experience Cloud">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            <span class="capability-icon__label">Experience Cloud</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="animate-section section-accent section-depth dot-grid dot-grid--fade section-glow-tl">
       <div class="container">
         <div class="section-header">
           <h2>Why Auxspire?</h2>
@@ -253,7 +334,7 @@
       </div>
     </section>
 
-    <section id="platforms" class="animate-section section-accent section-depth">
+    <section id="platforms" class="animate-section section-accent section-depth section-glow-br">
       <div class="container">
         <div class="section-header">
           <h2>Platforms & Integrations</h2>
@@ -312,19 +393,19 @@
       </div>
     </section>
 
-    <section id="metrics" class="animate-section">
+    <section id="metrics" class="animate-section gradient-mesh section-glow-tl">
       <div class="container">
         <div class="section-header">
-          <h2>Delivery Metrics</h2>
+          <h2 class="gradient-text">Delivery Metrics</h2>
           <p>Proven results across industries</p>
         </div>
         <div class="stats">
-          <div class="stat"><div class="stat-value">20+</div><div class="stat-label">Projects Delivered</div></div>
-          <div class="stat"><div class="stat-value">90%</div><div class="stat-label">Client Retention</div></div>
-          <div class="stat"><div class="stat-value">5+</div><div class="stat-label">Years Experience</div></div>
-          <div class="stat"><div class="stat-value">500+</div><div class="stat-label">Flows & Automations</div></div>
-          <div class="stat"><div class="stat-value">25+</div><div class="stat-label">Salesforce Integrations</div></div>
-          <div class="stat"><div class="stat-value">100+</div><div class="stat-label">Data Migrations</div></div>
+          <div class="stat stat--highlight"><div class="stat-value has-glow">20+</div><div class="stat-label">Projects Delivered</div></div>
+          <div class="stat stat--highlight"><div class="stat-value has-glow">90%</div><div class="stat-label">Client Retention</div></div>
+          <div class="stat stat--highlight"><div class="stat-value has-glow">5+</div><div class="stat-label">Years Experience</div></div>
+          <div class="stat stat--highlight"><div class="stat-value has-glow">500+</div><div class="stat-label">Flows & Automations</div></div>
+          <div class="stat stat--highlight"><div class="stat-value has-glow">25+</div><div class="stat-label">Salesforce Integrations</div></div>
+          <div class="stat stat--highlight"><div class="stat-value has-glow">100+</div><div class="stat-label">Data Migrations</div></div>
         </div>
       </div>
     </section>
@@ -342,19 +423,60 @@
       </div>
     </section>
 
-    <section id="impact" class="animate-section section-accent section-depth">
-      <div class="container">
+    <section id="impact" class="animate-section section-accent section-depth section-glow-br">
+      <div class="container container--relative">
+        <div class="global-delivery-map" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice">
+            <path class="global-delivery-map__land" d="M100,120 L180,100 L260,140 L240,220 L160,260 L80,240 Z M280,80 L400,60 L480,100 L460,200 L360,240 L260,220 Z M500,100 L680,80 L760,140 L720,260 L580,280 L480,240 Z M140,280 L220,260 L300,300 L280,360 L180,380 L100,340 Z M320,300 L500,280 L560,340 L520,380 L380,400 L300,360 Z" fill="currentColor"/>
+            <circle class="map-dot" data-country="india" data-region="apac" cx="520" cy="220" r="5"/>
+            <circle class="map-dot" data-country="singapore" data-region="apac" cx="580" cy="260" r="5"/>
+            <circle class="map-dot" data-country="malaysia" data-region="apac" cx="560" cy="250" r="5"/>
+            <circle class="map-dot" data-country="australia" data-region="apac" cx="640" cy="320" r="5"/>
+            <circle class="map-dot" data-country="newzealand" data-region="apac" cx="720" cy="340" r="5"/>
+            <circle class="map-dot" data-country="uae" data-region="mena" cx="480" cy="220" r="5"/>
+            <circle class="map-dot" data-country="saudiarabia" data-region="mena" cx="460" cy="200" r="5"/>
+            <circle class="map-dot" data-country="uk" data-region="europe" cx="400" cy="140" r="5"/>
+            <circle class="map-dot" data-country="georgia" data-region="europe" cx="460" cy="180" r="5"/>
+            <circle class="map-dot" data-country="usa" data-region="nam" cx="180" cy="180" r="5"/>
+            <circle class="map-dot" data-country="canada" data-region="nam" cx="200" cy="140" r="5"/>
+          </svg>
+        </div>
         <div class="section-header">
-          <h2>Projects with Global Impact</h2>
+          <h2>Global Delivery Footprint</h2>
+          <p>Delivering Salesforce solutions across APAC, MENA, Europe, and North America — supporting clients in 11+ countries with distributed, multi-timezone collaboration.</p>
         </div>
-        <div class="section-header" style="margin-bottom:var(--space-lg);">
-          <h3 style="font-size:1.25rem;font-weight:600;color:var(--color-text-muted);">Locations</h3>
-        </div>
-        <div class="locations">
-          <div class="location"><h4>India</h4></div>
-          <div class="location"><h4>Australia</h4></div>
-          <div class="location"><h4>United Kingdom</h4></div>
-          <div class="location"><h4>United States</h4></div>
+        <div class="region-cards">
+          <div class="card card--glass card--region">
+            <h3 class="region-card__title">APAC</h3>
+            <ul class="region-card__countries">
+              <li>India</li>
+              <li>Singapore</li>
+              <li>Malaysia</li>
+              <li>Australia</li>
+              <li>New Zealand</li>
+            </ul>
+          </div>
+          <div class="card card--glass card--region">
+            <h3 class="region-card__title">MENA</h3>
+            <ul class="region-card__countries">
+              <li>UAE</li>
+              <li>Saudi Arabia</li>
+            </ul>
+          </div>
+          <div class="card card--glass card--region">
+            <h3 class="region-card__title">Europe &amp; Eurasia</h3>
+            <ul class="region-card__countries">
+              <li>United Kingdom</li>
+              <li>Georgia</li>
+            </ul>
+          </div>
+          <div class="card card--glass card--region">
+            <h3 class="region-card__title">North America</h3>
+            <ul class="region-card__countries">
+              <li>United States</li>
+              <li>Canada</li>
+            </ul>
+          </div>
         </div>
         <div class="separator"></div>
         <div class="section-header" style="margin-bottom:var(--space-lg);">
@@ -447,8 +569,13 @@
     </div>
   </footer>
 
+  <a href="/contact/" class="sticky-cta sticky-cta--arch" id="sticky-cta-arch" aria-label="Book Architecture Call">Book Architecture Call</a>
+
   <script src="assets/js/home-animations.js"></script>
   <script src="assets/js/circuit-pulse.js"></script>
+  <script src="assets/js/particles.js"></script>
+  <script src="assets/js/cursor-effects.js"></script>
+  <script src="assets/js/interactive-cards.js"></script>
   <script>
     (function() {
       var featured = document.getElementById('case-studies-featured');

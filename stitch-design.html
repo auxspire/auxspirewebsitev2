@@ -56,11 +56,15 @@
     .stat { text-align: center; }
     .stat-value { font-size: 2.5rem; font-weight: 700; color: var(--color-primary); margin-bottom: 4px; }
     .stat-label { font-size: 0.9rem; color: var(--color-text-muted); }
-    .locations { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-    @media (max-width: 600px) { .locations { grid-template-columns: 1fr; } }
-    .location { background: var(--color-surface); border-radius: var(--radius); padding: 32px; text-align: center; }
-    .location h4 { font-size: 1.2rem; margin-bottom: 8px; }
-    .location p { color: var(--color-text-muted); font-size: 0.9rem; }
+    .region-cards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+    @media (max-width: 768px) { .region-cards { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 480px) { .region-cards { grid-template-columns: 1fr; } }
+    .card--glass { background: rgba(18, 18, 26, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.08); }
+    .region-card__title { font-size: 1.25rem; font-weight: 600; margin-bottom: 16px; color: var(--color-text); }
+    .region-card__countries { list-style: none; margin: 0; padding: 0; font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6; }
+    .region-card__countries li { padding: 4px 0; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .region-card__countries li:last-child { border-bottom: none; }
+    .card--region:hover { transform: none; box-shadow: 0 0 0 1px rgba(56, 189, 248, 0.2); }
     .cta-section { text-align: center; padding: 100px 0; }
     .cta-section h2 { font-size: clamp(2rem, 4vw, 2.75rem); margin-bottom: 16px; }
     .cta-section p { color: var(--color-text-muted); margin-bottom: 32px; max-width: 500px; margin-left: auto; margin-right: auto; }
@@ -75,7 +79,7 @@
         <div class="nav-links">
           <a href="#services">Services</a>
           <a href="#why">Why Auxspire</a>
-          <a href="#impact">Global Impact</a>
+          <a href="#impact">Global Delivery</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -154,13 +158,41 @@
   <section id="impact">
     <div class="container">
       <div class="section-header">
-        <h2>Global Impact</h2>
-        <p>Local Expertise, Global Presence</p>
+        <h2>Global Delivery Footprint</h2>
+        <p>Delivering Salesforce solutions across APAC, MENA, Europe, and North America — supporting clients in 11+ countries with distributed, multi-timezone collaboration.</p>
       </div>
-      <div class="locations">
-        <div class="location"><h4>San Francisco</h4><p>USA Regional Hub</p></div>
-        <div class="location"><h4>London</h4><p>Europe HQ</p></div>
-        <div class="location"><h4>Bangalore</h4><p>Asia-Pacific</p></div>
+      <div class="region-cards">
+        <div class="card card--glass card--region">
+          <h3 class="region-card__title">APAC</h3>
+          <ul class="region-card__countries">
+            <li>India</li>
+            <li>Singapore</li>
+            <li>Malaysia</li>
+            <li>Australia</li>
+            <li>New Zealand</li>
+          </ul>
+        </div>
+        <div class="card card--glass card--region">
+          <h3 class="region-card__title">MENA</h3>
+          <ul class="region-card__countries">
+            <li>UAE</li>
+            <li>Saudi Arabia</li>
+          </ul>
+        </div>
+        <div class="card card--glass card--region">
+          <h3 class="region-card__title">Europe &amp; Eurasia</h3>
+          <ul class="region-card__countries">
+            <li>United Kingdom</li>
+            <li>Georgia</li>
+          </ul>
+        </div>
+        <div class="card card--glass card--region">
+          <h3 class="region-card__title">North America</h3>
+          <ul class="region-card__countries">
+            <li>United States</li>
+            <li>Canada</li>
+          </ul>
+        </div>
       </div>
     </div>
   </section>

@@ -8,6 +8,7 @@
   --color-primary: #136dec;
   --color-text-on-primary: #ffffff;
   --color-accent-neon: #22d3ee;
+  --accent: var(--color-accent-neon);
   --color-accent-accessible: #0e7490;
   --color-bg: #f8fafc;
   --color-surface: #ffffff;
@@ -72,6 +73,7 @@
 
 /* Premium dark theme – black + bluish gradient. Primary #F8FAFC, secondary #94A3B8, borders 0.08. */
 .theme-dark {
+  --accent: var(--color-accent-neon);
   --color-bg: #05070a;
   --color-bg-end: #050a14;
   --color-surface: #0c0f14;
