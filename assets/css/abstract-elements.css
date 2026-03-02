@@ -737,46 +737,6 @@
 }
 
 /* ============================================
-   METRICS STRIP
-   ============================================ */
-
-.metrics-strip {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--space-md) var(--space-lg);
-  background: rgba(5, 7, 10, 0.4);
-  border-top: 1px solid rgba(255, 255, 255, 0.04);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-  overflow: hidden;
-  contain: layout paint;
-}
-
-.metrics-strip__text {
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-  text-shadow: 0 0 20px rgba(34, 211, 238, 0.2);
-  white-space: nowrap;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .metrics-strip__text {
-    animation: metrics-strip-fade 1s ease-out;
-  }
-}
-
-@keyframes metrics-strip-fade {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .metrics-strip__text {
-    animation: none;
-  }
-}
-
-/* ============================================
    GLOBAL DELIVERY MAP
    ============================================ */
 

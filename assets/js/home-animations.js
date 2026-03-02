@@ -493,20 +493,42 @@
      ============================================ */
 
   function init() {
-    initSectionAnimations();
-    Parallax.init();
-    NumberCounter.init();
-    TextReveal.init();
-    ScrollProgress.init();
-    StickyHeader.init();
-    HeroAnimation.init();
-    BadgeAnimation.init();
-    SmoothScroll.init();
-    LazyLoad.init();
-    initGlobalDeliveryMapHover();
+    try {
+      initSectionAnimations();
+    } catch (e) { console.warn('Section animations:', e); }
+    try {
+      Parallax.init();
+    } catch (e) { console.warn('Parallax:', e); }
+    try {
+      NumberCounter.init();
+    } catch (e) { console.warn('NumberCounter:', e); }
+    try {
+      TextReveal.init();
+    } catch (e) { console.warn('TextReveal:', e); }
+    try {
+      ScrollProgress.init();
+    } catch (e) { console.warn('ScrollProgress:', e); }
+    try {
+      StickyHeader.init();
+    } catch (e) { console.warn('StickyHeader:', e); }
+    try {
+      HeroAnimation.init();
+    } catch (e) { console.warn('HeroAnimation:', e); }
+    try {
+      BadgeAnimation.init();
+    } catch (e) { console.warn('BadgeAnimation:', e); }
+    try {
+      SmoothScroll.init();
+    } catch (e) { console.warn('SmoothScroll:', e); }
+    try {
+      LazyLoad.init();
+    } catch (e) { console.warn('LazyLoad:', e); }
+    try {
+      initGlobalDeliveryMapHover();
+    } catch (e) { console.warn('GlobalDeliveryMapHover:', e); }
   }
 
-  // Run on DOM ready
+  // Run on DOM ready (avoid race with assets)
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {

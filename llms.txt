@@ -1,0 +1,46 @@
+# Auxspire
+
+Auxspire empowers enterprise intelligence through expert Salesforce implementation, AI-driven solutions, and product development. We serve clients across APAC, MENA, Europe, and North America with distributed, multi-timezone delivery.
+
+## Summary
+
+Auxspire is a trusted Salesforce consulting partner. We design, build, integrate, and optimize Salesforce ecosystems for fast-growing businesses. Services include Salesforce implementation, integrations, data migration, AI agents, and Experience Cloud. We deliver in 11+ countries: India, Singapore, Malaysia, Australia, New Zealand, UAE, Saudi Arabia, United Kingdom, Georgia, United States, and Canada.
+
+## Main pages
+
+- Home: https://auxspire.com/
+- About: https://auxspire.com/about-us/
+- Case Studies: https://auxspire.com/case-studies/
+- Contact: https://auxspire.com/contact/
+- Client Portal: https://auxspire.com/client-portal/
+- Stories: https://auxspire.com/stories/
+
+## Services
+
+- Salesforce Implementation
+- Salesforce Integration Services
+- Salesforce Consulting
+- AI-Driven Solutions
+- Data Migration
+- Experience Cloud
+- Automation and Flows
+
+## Industries we serve
+
+Maritime/Shipping, E-commerce/Technology, E-commerce, Federal/Government, and others. See Case Studies for specific examples.
+
+## Regions served
+
+APAC (India, Singapore, Malaysia, Australia, New Zealand), MENA (UAE, Saudi Arabia), Europe & Eurasia (United Kingdom, Georgia), North America (United States, Canada).
+
+## Proof metrics (representative)
+
+500+ automations deployed, 40+ integrations, 98% client retention, multi-timezone delivery, 20+ projects delivered, 90% client retention, 5+ years experience.
+
+## How to cite
+
+Auxspire. Empowering Enterprise Intelligence. https://auxspire.com/ Accessed [date].
+
+## Contact
+
+https://auxspire.com/contact/

@@ -40,6 +40,7 @@ body {
   background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 35%, #f8fafc 100%);
   color: var(--color-text);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 /* Dark theme: body gradient and header/footer so whole homepage is dark */
@@ -125,6 +126,17 @@ a:focus-visible {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 var(--space-lg);
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
+}
+
+.container--narrow {
+  max-width: 720px;
 }
 
 /* Header - light enterprise */
@@ -243,6 +255,15 @@ a:focus-visible {
   gap: var(--space-xl);
   margin-bottom: var(--space-md);
 }
+
+@media (max-width: 768px) {
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-md);
+  }
+}
+
 .footer-links a {
   color: var(--color-text-muted);
   transition: color var(--transition-base);
@@ -383,6 +404,23 @@ a:focus-visible {
   color: rgba(34, 211, 238, 0.95);
 }
 
+@media (max-width: 768px) {
+  .hero {
+    padding: var(--space-2xl) 0 60px;
+  }
+  .hero-btns {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero .hero-btns .btn {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+
 .btn-accent {
   background: var(--color-primary);
   color: var(--color-text-on-primary);
@@ -428,6 +466,15 @@ section {
   background: linear-gradient(90deg, var(--color-primary), var(--color-accent-neon));
   border-radius: 1px;
   opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .section-header h2 {
+    font-size: var(--text-2xl);
+  }
+  .section-header p {
+    font-size: var(--text-base);
+  }
 }
 
 /* Badge - shadcn-like pill */
@@ -497,6 +544,12 @@ section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: var(--space-lg);
+}
+
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
@@ -754,6 +807,10 @@ section {
   color: var(--color-text);
 }
 
+.form-group input {
+  min-height: 44px;
+}
+
 .form-group input,
 .form-group textarea {
   width: 100%;
@@ -767,6 +824,11 @@ section {
   transition: border-color var(--transition-base);
 }
 
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
@@ -778,10 +840,6 @@ section {
   color: var(--color-text-muted);
 }
 
-.form-group textarea {
-  min-height: 120px;
-  resize: vertical;
-}
 
 .form-checkbox {
   display: flex;
@@ -1353,6 +1411,16 @@ section {
   outline: none;
   box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--accent, var(--color-accent-neon));
   border-radius: var(--radius);
+}
+
+@media (max-width: 768px) {
+  .capabilities-icon-row {
+    gap: var(--space-md);
+    justify-content: center;
+  }
+  .capability-icon__label {
+    font-size: 0.65rem;
+  }
 }
 
 /* ============================================

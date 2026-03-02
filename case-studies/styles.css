@@ -139,24 +139,30 @@
   margin-bottom: 16px;
 }
 
+.case-study-overview,
 .case-study-challenge,
 .case-study-solution,
-.case-study-results {
+.case-study-results,
+.case-study-tech-stack {
   margin-bottom: 12px;
 }
 
+.case-study-overview h4,
 .case-study-challenge h4,
 .case-study-solution h4,
-.case-study-results h4 {
+.case-study-results h4,
+.case-study-tech-stack h4 {
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--color-text);
   margin-bottom: 8px;
 }
 
+.case-study-overview p,
 .case-study-challenge p,
 .case-study-solution p,
-.case-study-results p {
+.case-study-results p,
+.case-study-tech-stack p {
   font-size: var(--text-sm);
   color: var(--color-text-muted);
   line-height: 1.6;

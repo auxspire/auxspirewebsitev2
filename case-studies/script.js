@@ -63,6 +63,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     ${study.client ? `<div class="case-study-client">${study.client}</div>` : ''}
                 </div>
                 <div class="case-study-content">
+                    <div class="case-study-overview">
+                        <h4>Overview</h4>
+                        <p>${study.industry}${study.client ? ' · ' + study.client : ''}. ${(study.challenge || '').substring(0, 180)}${(study.challenge || '').length > 180 ? '…' : ''}</p>
+                    </div>
                     <div class="case-study-challenge">
                         <h4>Challenge</h4>
                         <p>${study.challenge}</p>
@@ -74,6 +78,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="case-study-results">
                         <h4>Results</h4>
                         <p>${study.results}</p>
+                    </div>
+                    <div class="case-study-tech-stack">
+                        <h4>Tech stack</h4>
+                        <p>${(study.technologies || []).join(', ') || '—'}</p>
                     </div>
                 </div>
                 ${useCaseHtml}

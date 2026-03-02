@@ -24,8 +24,20 @@
   <link rel="stylesheet" href="../assets/css/design-system.css">
   <link rel="stylesheet" href="../assets/css/components.css">
   <link rel="stylesheet" href="../assets/css/animations.css">
+  <link rel="stylesheet" href="../assets/css/textures.css">
+  <link rel="stylesheet" href="../assets/css/abstract-elements.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "Organization", "@id": "https://auxspire.com/#organization", "name": "Auxspire", "url": "https://auxspire.com" },
+      { "@type": "WebSite", "@id": "https://auxspire.com/#website", "url": "https://auxspire.com", "publisher": { "@id": "https://auxspire.com/#organization" } },
+      { "@type": "ContactPage", "url": "https://auxspire.com/contact/", "mainEntity": { "@type": "Organization", "@id": "https://auxspire.com/#organization" } }
+    ]
+  }
+  </script>
 </head>
-<body>
+<body class="theme-dark">
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <header class="site-header">
     <div class="container">
@@ -59,7 +71,7 @@
     </section>
 
     <section>
-      <div class="container" style="max-width: 720px; margin: 0 auto;">
+      <div class="container container--narrow">
         <form class="contact-form" action="https://api.web3forms.com/submit" method="POST" aria-label="Enquiry form">
           <input type="hidden" name="access_key" value="0c7b1332-0a6a-4e41-bbf4-4b48a9c74d99">
           <input type="hidden" name="subject" value="Enquiry">

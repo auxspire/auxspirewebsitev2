@@ -5,6 +5,7 @@ const path = require('path');
 const PORT = process.env.PORT || 8000;
 const MIME_TYPES = {
     '.txt': 'text/plain',
+    '.md': 'text/markdown',
     '.xml': 'application/xml',
     '.html': 'text/html',
     '.htm': 'text/html',
@@ -43,8 +44,8 @@ const server = http.createServer((req, res) => {
             if (fs.existsSync(imagesPath)) return imagesPath;
         }
 
-        // Root-level SEO files (path.join with leading slash can fail on some platforms)
-        if (requestPath === '/robots.txt' || requestPath === '/sitemap.xml') {
+        // Root-level SEO / AI-search files
+        if (requestPath === '/robots.txt' || requestPath === '/sitemap.xml' || requestPath === '/llms.txt') {
             const seoPath = path.join(root, requestPath.slice(1));
             if (fs.existsSync(seoPath)) return seoPath;
         }
@@ -72,8 +73,9 @@ const server = http.createServer((req, res) => {
             return html;
         }
 
-        // Exact file
-        const direct = path.join(root, requestPath);
+        // Exact file (strip leading slash so path.join does not produce absolute path)
+        const relativePath = requestPath.replace(/^\/+/, '');
+        const direct = path.join(root, relativePath);
         if (fs.existsSync(direct)) return direct;
 
         // Fallback: WordPress exports often include "-1" variants
