@@ -25,11 +25,28 @@ deploy\deploy.cmd
 ./deploy/deploy.sh
 ```
 
-This syncs the repo to the VPS at `/var/www/auxspire` and restarts PM2 `auxspire-website` on port 3000. Nginx (or Caddy) should proxy auxspire.com and 72.61.227.53 to that port.
+This syncs the repo to the VPS at `/var/www/auxspire` and restarts PM2 `auxspire-website` on port 3000.
+
+**Production HTTPS:** `auxspire.com` is served over TLS by **Nginx Proxy Manager** (Docker), which proxies to the Coolify app on port 3002. Host nginx on port 80 is not used for the public site.
+
+## SSL / HTTPS
+
+If browsers show **certificate invalid** or `SEC_E_CERT_EXPIRED` but Let's Encrypt files on the server are current, NPM is serving a stale cert from memory. Fix:
+
+```bash
+./deploy/ssl-reload.sh
+# or on VPS: docker restart nginx-proxy-manager
+```
+
+Install a daily reload cron (after NPM auto-renews certs):
+
+```bash
+./deploy/setup-ssl-cron.sh
+```
 
 ## Nginx
 
-A server block for this app is in `deploy/nginx.conf`. Copy it to the VPS `/etc/nginx/sites-available/` (or equivalent) when setting up the server. See auxspire-infra repo for initial server setup.
+A server block for this app is in `deploy/nginx.conf` (optional host nginx). Public TLS is managed in Nginx Proxy Manager. See auxspire-infra repo for initial server setup.
 
 ## Design system
 
