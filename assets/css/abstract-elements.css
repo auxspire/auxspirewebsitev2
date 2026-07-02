@@ -13,6 +13,7 @@
   inset: 0;
   pointer-events: none;
   z-index: 0;
+  opacity: calc(0.85 * var(--fx-intensity, 0.65));
   background: 
     radial-gradient(ellipse 80% 50% at 20% 40%, rgba(56, 189, 248, 0.15), transparent 50%),
     radial-gradient(ellipse 60% 80% at 80% 60%, rgba(99, 102, 241, 0.12), transparent 50%),

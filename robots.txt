@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+Disallow: /wp-content/
+Disallow: /wp-json/
+Disallow: /stitch-design.html
+Disallow: /circuti.html
+Disallow: /*-1.htm
+
 Sitemap: https://auxspire.com/sitemap.xml

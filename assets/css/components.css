@@ -49,7 +49,9 @@ body.theme-dark {
   min-height: 100vh;
 }
 body.theme-dark .site-header {
-  background: var(--color-surface);
+  background: rgba(12, 15, 20, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   border-bottom-color: var(--color-border);
 }
 body.theme-dark .site-footer {
@@ -188,6 +190,20 @@ a:focus-visible {
   color: var(--color-text);
 }
 
+.nav-links a[aria-current="page"] {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.nav-links a[aria-current="page"]::after {
+  content: '';
+  display: block;
+  height: 2px;
+  margin-top: 4px;
+  background: linear-gradient(90deg, var(--cyber-cyan, #22d3ee), var(--cyber-violet, #6366f1));
+  border-radius: 1px;
+}
+
 /* Mobile nav */
 .nav-toggle {
   display: none;
@@ -204,6 +220,15 @@ a:focus-visible {
 .nav-toggle:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
+}
+
+.btn-card-link {
+  margin-top: var(--space-md);
+  display: inline-flex;
+}
+
+.btn-icon-inline {
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
@@ -277,18 +302,23 @@ a:focus-visible {
   position: relative;
   padding: var(--space-3xl) 0 100px;
   text-align: center;
-  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%);
-  background-image: linear-gradient(160deg, rgba(15, 23, 42, 0.97) 0%, transparent 50%),
-    linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%);
+  background: linear-gradient(160deg, var(--hero-bg-start, #05070a) 0%, var(--hero-bg-mid, #0a1628) 50%, var(--hero-bg-end, #05070a) 100%);
   overflow: hidden;
-  color: #f8fafc;
+  color: var(--hero-text, var(--color-text));
 }
 .hero.hero-bg-image {
-  background-image: linear-gradient(160deg, rgba(15, 23, 42, 0.92) 0%, transparent 50%),
-    linear-gradient(135deg, rgba(15, 23, 42, 0.92) 0%, rgba(30, 58, 95, 0.88) 50%, rgba(15, 23, 42, 0.92) 100%),
+  background-image: linear-gradient(160deg, rgba(5, 7, 10, 0.92) 0%, transparent 50%),
+    linear-gradient(135deg, rgba(5, 7, 10, 0.92) 0%, rgba(10, 22, 40, 0.88) 50%, rgba(5, 7, 10, 0.92) 100%),
     url(/stitch/hero-bg.png);
   background-size: cover, cover, cover;
   background-position: center;
+}
+.theme-dark .hero h1,
+.theme-dark .hero p {
+  color: var(--hero-text, var(--color-text));
+}
+.theme-dark .hero p {
+  color: var(--hero-text-muted, var(--color-text-muted));
 }
 .hero h1,
 .hero p {
@@ -500,9 +530,11 @@ section {
 /* Trust bar section */
 .trust-bar-section {
   padding: var(--space-2xl) 0;
-  background: var(--color-surface);
+  background: rgba(12, 15, 20, 0.6);
   border-top: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
+  position: relative;
+  z-index: 2;
 }
 
 /* Trust bar - client logos */
@@ -560,10 +592,21 @@ section {
   box-shadow: var(--shadow-card);
   transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
 }
+
+.theme-dark .card {
+  background: rgba(12, 15, 20, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
 .card:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-card-hover);
   border-color: rgba(19, 109, 236, 0.12);
+}
+
+.theme-dark .card:hover {
+  border-color: rgba(56, 189, 248, 0.2);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -616,10 +659,14 @@ section {
 }
 
 .stat-value {
-  font-size: 2.5rem;
+  font-size: clamp(2.25rem, 4vw, 3rem);
   font-weight: 700;
   color: var(--color-primary);
   margin-bottom: var(--space-xs);
+}
+
+.stat--highlight .stat-value {
+  color: var(--cyber-cyan, var(--color-accent-neon));
 }
 
 .stat-label {
@@ -1085,12 +1132,22 @@ section {
    GRADIENT HEADLINE STYLES
    ============================================ */
 
-.hero h1.gradient-headline {
+.hero h1.gradient-headline,
+.page-hero h1.gradient-headline {
   background: linear-gradient(135deg, #f8fafc 0%, #22d3ee 50%, #6366f1 100%);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+
+@supports not (background-clip: text) {
+  .hero h1.gradient-headline,
+  .page-hero h1.gradient-headline,
+  .gradient-text {
+    color: var(--color-text);
+    background: none;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -13,7 +13,6 @@ Auxspire is a trusted Salesforce consulting partner. We design, build, integrate
 - Case Studies: https://auxspire.com/case-studies/
 - Contact: https://auxspire.com/contact/
 - Client Portal: https://auxspire.com/client-portal/
-- Stories: https://auxspire.com/stories/
 
 ## Services
 
@@ -35,7 +34,7 @@ APAC (India, Singapore, Malaysia, Australia, New Zealand), MENA (UAE, Saudi Arab
 
 ## Proof metrics (representative)
 
-500+ automations deployed, 40+ integrations, 98% client retention, multi-timezone delivery, 20+ projects delivered, 90% client retention, 5+ years experience.
+20+ projects delivered, 90% client retention, 5+ years experience, 500+ flows and automations, 25+ Salesforce integrations, delivery across 11+ countries.
 
 ## How to cite
 

@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="../assets/css/animations.css">
   <link rel="stylesheet" href="../assets/css/textures.css">
   <link rel="stylesheet" href="../assets/css/abstract-elements.css">
+  <link rel="stylesheet" href="../assets/css/pages.css">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -38,17 +39,18 @@
   </script>
 </head>
 <body class="theme-dark">
+  <div class="scroll-progress" aria-hidden="true"></div>
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <header class="site-header">
     <div class="container">
       <nav class="site-nav">
         <a href="/" class="site-logo">
-          <img src="/stitch/logo.png" alt="AUXSPIRE" height="36">
+          <img src="/stitch/logo.png" alt="AUXSPIRE" height="48">
         </a>
         <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
         <div class="nav-links" id="navLinks">
           <a href="/#services">Services</a>
-          <a href="/about-us/">About</a>
+          <a href="/about-us/" aria-current="page">About</a>
           <a href="/case-studies/">Case Studies</a>
           <a href="/#why">Why Auxspire</a>
           <a href="/#impact">Global Delivery</a>
@@ -63,40 +65,69 @@
   </header>
 
   <main id="main-content">
-    <section class="hero">
+    <section class="page-hero dark-section noise-overlay">
+      <div class="page-hero__fx" aria-hidden="true">
+        <div class="mesh-gradient"></div>
+        <div class="abstract-orbs abstract-orbs--section">
+          <div class="abstract-orb abstract-orb--1"></div>
+          <div class="abstract-orb abstract-orb--2"></div>
+        </div>
+      </div>
       <div class="container">
-        <h1>About Auxspire</h1>
-        <p>Trusted Salesforce Consulting Partner To Elevate Your Business To New Heights.</p>
+        <div class="hero-badge">
+          <span class="material-symbols-outlined">groups</span>
+          Your Salesforce Partner
+        </div>
+        <h1 class="gradient-headline">About Auxspire</h1>
+        <p class="prose-lead">Trusted Salesforce Consulting Partner To Elevate Your Business To New Heights.</p>
       </div>
     </section>
 
-    <section>
+    <section class="animate-section section-accent">
       <div class="container">
         <div class="section-header">
-          <h2>At a Glance</h2>
+          <h2 class="gradient-text">At a Glance</h2>
           <p>With Auxspire as your trusted Salesforce consultant, your business will gain a profitable solution that modernizes business operations and maximizes business goals.</p>
         </div>
+        <div class="stat-strip">
+          <div class="stat-strip__item">
+            <div class="stat-strip__value">20+</div>
+            <div class="stat-strip__label">Projects Delivered</div>
+          </div>
+          <div class="stat-strip__item">
+            <div class="stat-strip__value">90%</div>
+            <div class="stat-strip__label">Client Retention</div>
+          </div>
+          <div class="stat-strip__item">
+            <div class="stat-strip__value">5+</div>
+            <div class="stat-strip__label">Years Experience</div>
+          </div>
+          <div class="stat-strip__item">
+            <div class="stat-strip__value">11+</div>
+            <div class="stat-strip__label">Countries Served</div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section>
+    <section class="animate-section">
       <div class="container">
         <div class="section-header">
-          <h2>Our Expertise</h2>
+          <h2 class="gradient-text">Our Expertise</h2>
         </div>
         <div class="cards">
-          <div class="card">
-            <div class="card-icon"><span class="material-symbols-outlined">groups</span></div>
+          <div class="card card--glass card--glow">
+            <div class="card-icon icon-container"><span class="material-symbols-outlined">groups</span></div>
             <h3>Client-First Approach</h3>
             <p>We have helped our clients at different stages of Salesforce adoption across the globe. Our proactive suggestions and action plans enable clients to adopt Salesforce CRM in the best possible way.</p>
           </div>
-          <div class="card">
-            <div class="card-icon"><span class="material-symbols-outlined">support_agent</span></div>
+          <div class="card card--glass card--glow">
+            <div class="card-icon icon-container"><span class="material-symbols-outlined">support_agent</span></div>
             <h3>Prompt Support</h3>
             <p>We offer prompt responses to your queries and extend necessary support to ensure maximum return on Salesforce investment.</p>
           </div>
-          <div class="card">
-            <div class="card-icon"><span class="material-symbols-outlined">verified_user</span></div>
+          <div class="card card--glass card--glow">
+            <div class="card-icon icon-container"><span class="material-symbols-outlined">verified_user</span></div>
             <h3>Enterprise Scale</h3>
             <p>Our approach is built on enterprise-scale reliability and an unwavering commitment to engineering excellence.</p>
           </div>
@@ -104,9 +135,9 @@
       </div>
     </section>
 
-    <section class="cta-section">
+    <section class="cta-section cta-section-bg animate-section">
       <div class="container">
-        <h2>Ready to Elevate Your Business?</h2>
+        <h2 class="gradient-text">Ready to Elevate Your Business?</h2>
         <p>Let's discuss how our Salesforce expertise can drive your growth.</p>
         <div class="hero-btns">
           <a href="/contact/" class="btn btn-primary">Get in Touch</a>
@@ -125,36 +156,11 @@
         <a href="/contact/">Contact</a>
         <a href="/client-portal/">Client Portal</a>
       </nav>
+      <p class="footer-tagline">Salesforce delivery across APAC, MENA, Europe, and North America</p>
       <p>&copy; Auxspire | Empowering Enterprise Intelligence</p>
     </div>
   </footer>
 
-  <script>
-    (function() {
-      var toggle = document.getElementById('navToggle');
-      var links = document.getElementById('navLinks');
-      var overlay = document.getElementById('navOverlay');
-      if (!toggle || !links) return;
-      function open() {
-        links.classList.add('is-open');
-        overlay.classList.add('is-open');
-        toggle.setAttribute('aria-expanded', 'true');
-        toggle.querySelector('.material-symbols-outlined').textContent = 'close';
-      }
-      function close() {
-        links.classList.remove('is-open');
-        overlay.classList.remove('is-open');
-        toggle.setAttribute('aria-expanded', 'false');
-        toggle.querySelector('.material-symbols-outlined').textContent = 'menu';
-      }
-      toggle.addEventListener('click', function() {
-        links.classList.contains('is-open') ? close() : open();
-      });
-      overlay.addEventListener('click', close);
-      links.querySelectorAll('a').forEach(function(a) {
-        a.addEventListener('click', close);
-      });
-    })();
-  </script>
+  <script src="../assets/js/site.js" defer></script>
 </body>
 </html>

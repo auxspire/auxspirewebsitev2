@@ -26,14 +26,16 @@
   <link rel="stylesheet" href="../assets/css/animations.css">
   <link rel="stylesheet" href="../assets/css/textures.css">
   <link rel="stylesheet" href="../assets/css/abstract-elements.css">
+  <link rel="stylesheet" href="../assets/css/pages.css">
 </head>
 <body class="theme-dark">
+  <div class="scroll-progress" aria-hidden="true"></div>
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <header class="site-header">
     <div class="container">
       <nav class="site-nav">
         <a href="/" class="site-logo">
-          <img src="/stitch/logo.png" alt="AUXSPIRE" height="36">
+          <img src="/stitch/logo.png" alt="AUXSPIRE" height="48">
         </a>
         <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
         <div class="nav-links" id="navLinks">
@@ -43,7 +45,7 @@
           <a href="/#why">Why Auxspire</a>
           <a href="/#impact">Global Delivery</a>
           <a href="/contact/">Contact</a>
-          <a href="/client-portal/">Client Portal</a>
+          <a href="/client-portal/" aria-current="page">Client Portal</a>
         </div>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
           <span class="material-symbols-outlined">menu</span>
@@ -53,18 +55,38 @@
   </header>
 
   <main id="main-content">
-    <section class="hero">
+    <section class="page-hero dark-section noise-overlay">
+      <div class="page-hero__fx" aria-hidden="true">
+        <div class="mesh-gradient"></div>
+        <div class="abstract-orbs abstract-orbs--section">
+          <div class="abstract-orb abstract-orb--2"></div>
+        </div>
+      </div>
       <div class="container">
         <div class="hero-badge">
           <span class="material-symbols-outlined">lock</span>
           Client Access
         </div>
-        <h1>Client Portal</h1>
-        <p>Access your project dashboard and resources. If you are an existing client, please contact your project manager for portal access.</p>
-        <div class="hero-btns">
-          <a href="https://client.auxspire.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visit Client Portal <span class="material-symbols-outlined" style="font-size:18px">open_in_new</span></a>
-          <a href="/contact/" class="btn btn-outline">Contact Us</a>
-          <a href="/" class="btn btn-outline">Back to Home</a>
+        <h1 class="gradient-headline">Client Portal</h1>
+        <p class="prose-lead">Access your project dashboard and resources. If you are an existing client, please contact your project manager for portal access.</p>
+      </div>
+    </section>
+
+    <section class="animate-section">
+      <div class="container">
+        <div class="portal-cards">
+          <div class="card card--glass card--glow portal-card">
+            <div class="card-icon icon-container"><span class="material-symbols-outlined">dashboard</span></div>
+            <h3>Existing Clients</h3>
+            <p>Sign in to your dedicated project workspace, documents, and delivery updates.</p>
+            <a href="https://client.auxspire.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Visit Client Portal <span class="material-symbols-outlined btn-icon-inline">open_in_new</span></a>
+          </div>
+          <div class="card card--glass card--inner-glow portal-card">
+            <div class="card-icon icon-container"><span class="material-symbols-outlined">chat</span></div>
+            <h3>New to Auxspire?</h3>
+            <p>Start a conversation about your Salesforce roadmap, integrations, or AI initiatives.</p>
+            <a href="/contact/" class="btn btn-outline">Contact Us</a>
+          </div>
         </div>
       </div>
     </section>
@@ -79,36 +101,11 @@
         <a href="/contact/">Contact</a>
         <a href="/client-portal/">Client Portal</a>
       </nav>
+      <p class="footer-tagline">Salesforce delivery across APAC, MENA, Europe, and North America</p>
       <p>&copy; Auxspire | Empowering Enterprise Intelligence</p>
     </div>
   </footer>
 
-  <script>
-    (function() {
-      var toggle = document.getElementById('navToggle');
-      var links = document.getElementById('navLinks');
-      var overlay = document.getElementById('navOverlay');
-      if (!toggle || !links) return;
-      function open() {
-        links.classList.add('is-open');
-        overlay.classList.add('is-open');
-        toggle.setAttribute('aria-expanded', 'true');
-        toggle.querySelector('.material-symbols-outlined').textContent = 'close';
-      }
-      function close() {
-        links.classList.remove('is-open');
-        overlay.classList.remove('is-open');
-        toggle.setAttribute('aria-expanded', 'false');
-        toggle.querySelector('.material-symbols-outlined').textContent = 'menu';
-      }
-      toggle.addEventListener('click', function() {
-        links.classList.contains('is-open') ? close() : open();
-      });
-      overlay.addEventListener('click', close);
-      links.querySelectorAll('a').forEach(function(a) {
-        a.addEventListener('click', close);
-      });
-    })();
-  </script>
+  <script src="../assets/js/site.js" defer></script>
 </body>
 </html>

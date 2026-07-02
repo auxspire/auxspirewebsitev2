@@ -7,7 +7,7 @@ Use this checklist before release or after major changes.
 - [ ] All pages use `body.theme-dark` and load the same CSS stack (design-system, components, animations, textures, abstract-elements where applicable).
 - [ ] No inline styles overriding design tokens except where necessary (e.g. dynamic values).
 - [ ] Buttons, cards, and containers use shared classes (`.btn`, `.card`, `.container`, `.section-header`).
-- [ ] Subpages (about-us, contact, case-studies, client-portal, stories) match homepage visual theme.
+- [ ] Subpages (about-us, contact, case-studies, client-portal) match homepage visual theme.
 
 ## Mobile responsiveness
 
@@ -65,4 +65,6 @@ Use this checklist before release or after major changes.
 
 ## Remaining TODOs (if any)
 
-- [ ] Document any known limitations or future improvements here.
+- [ ] Run Lighthouse after major visual changes and address high-impact issues.
+- [ ] Add FAQPage schema if an FAQ section is added later.
+- [x] Removed placeholder client logos, Coming Soon story cards, and dev/junk files (Jun 2026).

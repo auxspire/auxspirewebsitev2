@@ -506,12 +506,6 @@
       TextReveal.init();
     } catch (e) { console.warn('TextReveal:', e); }
     try {
-      ScrollProgress.init();
-    } catch (e) { console.warn('ScrollProgress:', e); }
-    try {
-      StickyHeader.init();
-    } catch (e) { console.warn('StickyHeader:', e); }
-    try {
       HeroAnimation.init();
     } catch (e) { console.warn('HeroAnimation:', e); }
     try {

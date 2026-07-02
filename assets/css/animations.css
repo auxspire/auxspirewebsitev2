@@ -366,6 +366,13 @@
   color: transparent;
 }
 
+@supports not (background-clip: text) {
+  .gradient-text {
+    color: var(--color-text);
+    background: none;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .gradient-text {
     animation: gradientShift 8s ease infinite;
