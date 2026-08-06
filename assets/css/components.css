@@ -78,7 +78,7 @@ body.theme-dark .btn-primary,
 body.theme-dark .btn-accent {
   border: 1px solid var(--color-border);
 }
-body.theme-dark .hero h1,
+body.theme-dark .hero h1:not(.gradient-headline),
 body.theme-dark .hero-badge {
   color: var(--color-text);
 }
@@ -313,7 +313,7 @@ a:focus-visible {
   background-size: cover, cover, cover;
   background-position: center;
 }
-.theme-dark .hero h1,
+.theme-dark .hero h1:not(.gradient-headline),
 .theme-dark .hero p {
   color: var(--hero-text, var(--color-text));
 }
@@ -1138,6 +1138,7 @@ section {
   background-size: 200% 200%;
   -webkit-background-clip: text;
   background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 

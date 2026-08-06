@@ -71,6 +71,8 @@
           <a href="/#services">Services</a>
           <a href="/about-us/">About</a>
           <a href="/case-studies/">Case Studies</a>
+          
+          <a href="/blog/">Blog</a>
           <a href="/#why">Why Auxspire</a>
           <a href="/#impact">Global Delivery</a>
           <a href="/contact/">Contact</a>
@@ -144,7 +146,7 @@
           <span class="material-symbols-outlined">verified_user</span>
           The Future of Enterprise Technology
         </div>
-        <h1 class="gradient-headline" data-reveal-text>Empowering Enterprise Intelligence</h1>
+        <h1 class="gradient-headline">Empowering Enterprise Intelligence</h1>
         <p>We design, build, integrate, and optimize Salesforce ecosystems for fast-growing businesses across the globe.</p>
         <div class="hero-btns">
           <a href="/case-studies/" class="btn btn-primary">View Case Studies <span class="material-symbols-outlined btn-icon-inline">arrow_forward</span></a>
@@ -522,7 +524,9 @@
         <a href="/">Home</a>
         <a href="/about-us/">About</a>
         <a href="/case-studies/">Case Studies</a>
-        <a href="/contact/">Contact</a>
+        
+          <a href="/blog/">Blog</a>
+          <a href="/contact/">Contact</a>
         <a href="/client-portal/">Client Portal</a>
       </nav>
       <p class="footer-tagline">Salesforce delivery across APAC, MENA, Europe, and North America</p>
@@ -552,7 +556,9 @@
             return '<div class="card card--glass card--glow"><div class="card-icon"><span class="material-symbols-outlined">description</span></div><h3>' + (s.title || '') + '</h3><p>' + (s.challenge ? s.challenge.substring(0, 120) + '...' : '') + '</p><a href="/case-studies/#study-' + (s.id || '') + '" class="btn btn-outline btn-card-link">View Details</a></div>';
           }).join('');
         }).catch(function() {
-          featured.innerHTML = '<p class="text-center-block">Explore our <a href="/case-studies/">case studies</a>.</p>';
+          featured.innerHTML = '<p class="text-center-block">Explore our <a href="/case-studies/">case studies</a>
+          <a href="/blog/">Blog</a>
+          .</p>';
         });
       }
     })();

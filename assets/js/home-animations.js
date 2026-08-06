@@ -203,12 +203,13 @@
     init: function () {
       if (REDUCED_MOTION) return;
 
-      var elements = document.querySelectorAll('[data-reveal-text]');
+      var elements = document.querySelectorAll('[data-reveal-text]:not(.gradient-headline)');
       if (!elements.length) return;
 
       var self = this;
 
       elements.forEach(function (el) {
+        if (el.classList.contains('gradient-headline')) return;
         self.wrapWords(el);
       });
 

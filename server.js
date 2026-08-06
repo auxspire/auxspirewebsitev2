@@ -31,6 +31,36 @@ const server = http.createServer((req, res) => {
     const pathname = req.url.split('?')[0];
     const root = '.';
 
+    // Stories → Blog (Content Feed)
+    if (pathname === '/stories' || pathname === '/stories/') {
+        res.writeHead(301, { Location: '/blog/' });
+        res.end();
+        return;
+    }
+
+    // /blog/:slug → article shell (SPA-style for Content Feed)
+    const blogArticleMatch = pathname.match(/^\/blog\/([^/]+)\/?$/);
+    if (blogArticleMatch && blogArticleMatch[1] !== 'article.html') {
+        const slug = blogArticleMatch[1];
+        // Don't treat real files under /blog/ as articles
+        const maybeFile = path.join(root, 'blog', slug);
+        if (!fs.existsSync(maybeFile) && !fs.existsSync(maybeFile + '.html')) {
+            const article = path.join(root, 'blog', 'article.html');
+            if (fs.existsSync(article)) {
+                fs.readFile(article, (error, content) => {
+                    if (error) {
+                        res.writeHead(500);
+                        res.end(`Server Error: ${error.code}`, 'utf-8');
+                    } else {
+                        res.writeHead(200, { 'Content-Type': 'text/html' });
+                        res.end(content, 'utf-8');
+                    }
+                });
+                return;
+            }
+        }
+    }
+
     function resolvePath(requestPath) {
         // Stitch assets: /stitch/* -> public/stitch/*
         if (requestPath.startsWith('/stitch/')) {

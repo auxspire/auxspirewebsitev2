@@ -1,0 +1,138 @@
+/* Blog listing + article (Content Feed consumer) */
+
+.blog-feed__status {
+  text-align: center;
+  color: var(--text-muted, #9aa4b2);
+  padding: 2rem 0;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.blog-card__cover {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  margin: -1px -1px 0;
+}
+
+.blog-card__cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.blog-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-top: 1rem;
+  flex: 1;
+}
+
+.blog-card__body h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.blog-card__body h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.blog-card__body h3 a:hover {
+  color: var(--accent, #136dec);
+}
+
+.blog-card__category {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent, #136dec);
+  margin: 0;
+}
+
+.blog-card__meta {
+  font-size: 0.85rem;
+  color: var(--text-muted, #9aa4b2);
+  margin: 0;
+}
+
+.blog-card .btn-card-link {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.blog-article {
+  padding: 3rem 0 5rem;
+}
+
+.blog-article__back {
+  margin-bottom: 1.5rem;
+}
+
+.blog-article__back a {
+  color: var(--text-muted, #9aa4b2);
+  text-decoration: none;
+}
+
+.blog-article__back a:hover {
+  color: var(--accent, #136dec);
+}
+
+.blog-article__cover {
+  margin: 1.75rem 0 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.blog-article__cover img {
+  width: 100%;
+  display: block;
+}
+
+.blog-article__body {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.blog-article__body h2,
+.blog-article__body h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-article__body p,
+.blog-article__body ul,
+.blog-article__body ol {
+  margin-bottom: 1.1rem;
+}
+
+.blog-article__body a {
+  color: var(--accent, #136dec);
+}
+
+.blog-article__body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.blog-article__body pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
