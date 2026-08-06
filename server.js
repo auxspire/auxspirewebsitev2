@@ -106,7 +106,19 @@ const server = http.createServer((req, res) => {
         // Exact file (strip leading slash so path.join does not produce absolute path)
         const relativePath = requestPath.replace(/^\/+/, '');
         const direct = path.join(root, relativePath);
-        if (fs.existsSync(direct)) return direct;
+        if (fs.existsSync(direct)) {
+            // Directory without trailing slash → serve index (avoid EISDIR 500 on /blog)
+            const stat = fs.statSync(direct);
+            if (stat.isDirectory()) {
+                const html = path.join(direct, 'index.html');
+                const htm = path.join(direct, 'index.htm');
+                const alt = path.join(direct, 'index-1.htm');
+                if (fs.existsSync(html)) return html;
+                if (fs.existsSync(htm)) return htm;
+                if (fs.existsSync(alt)) return alt;
+            }
+            return direct;
+        }
 
         // Fallback: WordPress exports often include "-1" variants
         const ext = path.extname(direct);
@@ -131,6 +143,9 @@ const server = http.createServer((req, res) => {
             if (error.code === 'ENOENT') {
                 res.writeHead(404, { 'Content-Type': 'text/html' });
                 res.end('<h1>404 - File Not Found</h1>', 'utf-8');
+            } else if (error.code === 'EISDIR') {
+                res.writeHead(301, { Location: pathname.endsWith('/') ? pathname : pathname + '/' });
+                res.end();
             } else {
                 res.writeHead(500);
                 res.end(`Server Error: ${error.code}`, 'utf-8');
